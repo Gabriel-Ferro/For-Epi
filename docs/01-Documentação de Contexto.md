@@ -12,35 +12,35 @@ Com base nos fatos supracitados, temos como objetivo incluir o mercado da Segura
 
 Os equipamentos de proteção individual são essenciais para garantir a saúde e a segurança dos trabalhadores. Afinal, evitam a contaminação e exposição a produtos tóxicos ou possíveis acidentes no ambiente de trabalho. A exposição contínua a certos riscos pode encurtar a vida útil do EPI. Portanto, deve-se sempre atentar para o estado do material antes do uso. Se houver algum dano no dispositivo de proteção, o correto a fazer é substituí-lo, notificando a empresa para a realização do descarte adequado, afim de garantir que aqueles expostos a esses acessórios futuramente estejam protegidos. Caso contrário, o MTE (Ministério do Trabalho) pode aplicar multas ao encontrar equipamentos em violação. Segundo o Art. 6.3 da NR6, o uso de EPI de forma irregular, resulta em punição. No caso do equipamento com prazo de validade excedido, a multa vai de R$5 a R$18 mil. Já é uma realidade que a destinação indevida dos EPI’s são tidos como potenciais precursores para o agravamento de problemas ambientais, e que merecem maior visibilidade para evitar a ocorrência de impactos negativos. Durante o seu processo de degradação no meio ambiente, esses resíduos se convertem em partículas sólidas cada vez menores, que se transformam em microplásticos nos mares e oceanos, eventualmente ingeridos por animais marinhos e posteriormente tornam-se alimentos e bebidas consumidas por humanos. No cenário social, o despejo inadequado traz risco de contaminação por patógenos infecciosos e impermeabilização urbana, levando a inundações. Fica evidente, portanto, que é um trabalho que necessita de organização da logística empresarial visando o controle de entrada e saída de materiais de segurança, de forma que, exista uma gestão que dê conta de manipular corretamente todos estes utensílios, distribuindo cada tipo para seus respectivos setores, contendo o detalhamento dos materiais, tais como: a data de entrega e a prevista para devolução. Sem dispensar a importância de treinamentos e vistorias, a fim de garantir que todos os equipamentos funcionem de forma regular e siga rigorosamente seu devido caminho ao final do ciclo de vida útil. 
 
-## Objetivos
+## Objetivos Gerais
 
-Controlar e documentar (comprovar) efetivamente a entrega de EPI (Equipamento de Proteção Individual) a seus funcionários, pode ser um desafio para a empresa. Com o deficit na gestão de EPI, o extravio das fichas de entrega de EPI se torna bem comum e o risco de enfrentar uma demanda trabalhista ou fiscalização é enorme, tornando a empresa vulnerável. Outro ponto importante é o controle dos vencimentos de cada EPI, para garantir sua efetividade. Uma forma de se proteger de tudo isso é adotar a tecnologia da biometria em seus processos de entrega de EPI, tornando-o 100% digital. 
+- Controlar e documentar (comprovar) efetivamente a entrega de EPI (Equipamento de Proteção Individual) a seus funcionários, pode ser um desafio para a empresa. Com o deficit na gestão de EPI, o extravio das fichas de entrega de EPI se torna bem comum e o risco de enfrentar uma demanda trabalhista ou fiscalização é enorme, tornando a empresa vulnerável. Outro ponto importante é o controle dos vencimentos de cada EPI, para garantir sua efetividade. Uma forma de se proteger de tudo isso é adotar a tecnologia da biometria em seus processos de entrega de EPI, tornando-o 100% digital. 
 
-Evitar o uso desnecessário de equipamentos de proteção individual entregando o material específico para cada função, na quantidade ideal e com o certificado de aprovação (CA) válido. 
+- Evitar o uso desnecessário de equipamentos de proteção individual entregando o material específico para cada função, na quantidade ideal e com o certificado de aprovação (CA) válido. 
 
-Receber alertas inteligentes sobre a periodicidade de troca dos EPIs dos seus funcionários, controlando a validade dos equipamentos, data de entrega, próxima troca e prazo de validade. 
+- Receber alertas inteligentes sobre a periodicidade de troca dos EPIs dos seus funcionários, controlando a validade dos equipamentos, data de entrega, próxima troca e prazo de validade. 
 
-Indicar treinamentos para uso de EPIs da forma correta através sistema de controle. Registrar os treinamentos ministrados pela empresa e comprovar que os funcionários realmente participaram. 
+- Indicar treinamentos para uso de EPIs da forma correta através sistema de controle. Registrar os treinamentos ministrados pela empresa e comprovar que os funcionários realmente participaram. 
 
-Atuar e planejar de forma a agregar para que os colaboradores se sintam mais seguro com a periodicidade da troca dos EPI’s, fornecendo maior segurança também em processos, e para quem faz os controles, e dinamizar também os formatos de como os EPI’s entram e saem dos estoques. Testar a acuracidade de como esse EPI é utilizado, evitar também os extravios e mau zelo dos equipamentos, tratando de forma eficaz todos os processos de retirada e manutenção dos equipamentos. 
+- Atuar e planejar de forma a agregar para que os colaboradores se sintam mais seguro com a periodicidade da troca dos EPI’s, fornecendo maior segurança também em processos, e para quem faz os controles, e dinamizar também os formatos de como os EPI’s entram e saem dos estoques. Testar a acuracidade de como esse EPI é utilizado, evitar também os extravios e mau zelo dos equipamentos, tratando de forma eficaz todos os processos de retirada e manutenção dos equipamentos. 
 
-Manter um controle sistêmico sobre como deverá ser realizado os descartes em conformidade com as normas e padrões que regulamentam os termos ambientais, respeitando as regras, e tendo embasamento jurídico, para os descartes de acordo com cada classe de EPI. 
+- Manter um controle sistêmico sobre como deverá ser realizado os descartes em conformidade com as normas e padrões que regulamentam os termos ambientais, respeitando as regras, e tendo embasamento jurídico, para os descartes de acordo com cada classe de EPI. 
 
-Auxiliar na geração de dados e estatísticas, visando a melhor administração dos equipamentos, assim como na tomada de decisões mais coerentes e assertivas.
+- Auxiliar na geração de dados e estatísticas, visando a melhor administração dos equipamentos, assim como na tomada de decisões mais coerentes e assertivas.
 
 ## Objetivos Específicos
 
-Diminuir os custos com EPI a partir do controle informatizado, facilitando o planejamento de compras e quantidades (estoque mínimo). Importar as notas fiscais de compra. Acompanhar diversos relatórios como EPIs mais consumidos por setor/cargo, vencimentos, movimentação, preços da última compra e etc. Com a principal finalidade de supervisionar e dinamizar diretamente a forma como cada EPI entra e saí do estoque. 
+- Diminuir os custos com EPI a partir do controle informatizado, facilitando o planejamento de compras e quantidades (estoque mínimo). Importar as notas fiscais de compra. Acompanhar diversos relatórios como EPIs mais consumidos por setor/cargo, vencimentos, movimentação, preços da última compra e etc. Com a principal finalidade de supervisionar e dinamizar diretamente a forma como cada EPI entra e saí do estoque. 
 
-Implantar a utilização do uso da biometria para oferecer maior  controle e segurança ao empregador, que garante a entrega do equipamento de proteção adequado ao trabalhador certo, sem que haja desvios de finalidade. 
+- Implantar a utilização do uso da biometria para oferecer maior  controle e segurança ao empregador, que garante a entrega do equipamento de proteção adequado ao trabalhador certo, sem que haja desvios de finalidade. 
 
-Manter a rastreabilidade de todos os EPI’s, com uma linguagem simples e objetiva para consultas de relatórios por diversas categorias, que poderão ser parametrizadas no sistema, e buscadas de acordo com o que a gestão e liderança achar de acordo as normas e políticas internas. 
+- Manter a rastreabilidade de todos os EPI’s, com uma linguagem simples e objetiva para consultas de relatórios por diversas categorias, que poderão ser parametrizadas no sistema, e buscadas de acordo com o que a gestão e liderança achar de acordo as normas e políticas internas. 
 
-Catalogar todos os equipamentos por subcategorias e periodicidade de troca, através de códigos individuais, e de acordo com as unidades de medidas pertinentes aos materiais. 
+- Catalogar todos os equipamentos por subcategorias e periodicidade de troca, através de códigos individuais, e de acordo com as unidades de medidas pertinentes aos materiais. 
 
-Auxiliar na conexão com outras empresas que possam auxíliar no processo de descarte, transporte e reciclagem ou inutilização efetiva dos EPI’s 
+- Auxiliar na conexão com outras empresas que possam auxíliar no processo de descarte, transporte e reciclagem ou inutilização efetiva dos EPI’s 
 
-Geração de dashbords interativos, visando auxíliar na visualização do maior número de dados inerentes as compras, vendas, distribuição, descarte e alocação dos EPI’s em uso e fora de uso.
+- Geração de dashbords interativos, visando auxíliar na visualização do maior número de dados inerentes as compras, vendas, distribuição, descarte e alocação dos EPI’s em uso e fora de uso.
 
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
