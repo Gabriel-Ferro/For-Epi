@@ -2,15 +2,18 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+**Clinica Madame Curie** <br/>
+Empresa de médio porte, CNPJ registrado na categoria “Prestação de Serviços”, atua especificamente na área da saúde, possui 8 anos desde sua fundação, se concentra no atendimento exclusivo de pessoas que se identificam como mulheres, detêm valores tais como: “agir de forma correta”, “a vida em primeiro lugar” e “cuidar do nosso planeta”. Empoderamento feminino e Natureza. Não possui uma logística clara no que se refere ao descarte de EPI’s, atualmente buscando aprimorar esse processo para contribuir para a conservação do meio ambiente e evitar multas fiscais. Nota 4.7 no site “Glassdoor” em avaliações de funcionários e ex-funcionários. Nota 8.1 no site “Reclame Aqui”. 
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+**Lacterra** <br/>
+Empresa de médio porte, CNPJ registrado na categoria “Prestação de Serviços”, atua especificamente área de construção, possui 3 anos desde sua fundação, focada em reformas e edificação de apartamentos de luxo em São Paulo, detêm valores tais como: “incentivo à disciplina e à honestidade”, “inovação” e “foco nas necessidades do público”. Trabalho em equipe e foco no resultado. Tem tido prejuízos financeiros por não possuir um sistema que controle o registro, documentação e devolução dos EPI’s, o que acarreta em falhas pontuais na segurança nos locais de trabalho. Nota 3.4 no site “Glassdoor” em avaliações de funcionários e ex-funcionários. Nota 6.1 no site “Reclame Aqui”. 
+
+**Fábrica King** <br/>
+Empresa de grande porte, CNPJ registrado na categoria de “Comércio”, atua especificamente na área de roupas e calçados, possui 12 anos desde sua fundação, concentrada, se concentra em fornecer peças de vestuário com foco no mercado de moda masculina em todo o país adequando-se à cultura local, detêm valores tais como: “colaboração”, “proatividade”, “sustentabilidade econômica”. Simplicidade e Humildade. Possui falhas na logística referente à prazos de vencimento e equipamentos ociosos, alguns dos funcionários reclamam de terem que trabalhar sem a proteção necessária. Nota 2.8 no site “Glassdoor” em avaliações de funcionários e ex-funcionários. Nota 5.8 no site “Reclame Aqui”. 
+
 
 > **Links Úteis**:
 > - [Rock Content](https://rockcontent.com/blog/personas/)
