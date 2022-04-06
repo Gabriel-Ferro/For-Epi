@@ -42,9 +42,6 @@ Os equipamentos de proteção individual são essenciais para garantir a saúde 
 
 - Geração de dashbords interativos, visando auxíliar na visualização do maior número de dados inerentes as compras, vendas, distribuição, descarte e alocação dos EPI’s em uso e fora de uso.
 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
 ## Justificativa
 
 Contribuir com a gestão de equipamentos de proteção individuais das empresas, visando auxilia-las a manter um ambiente de trabalho mais seguro, organizado e lucrativo, assim como minimizar os impactos ambientais gerados por descartes incorretos de EPI’s utilizados. 
