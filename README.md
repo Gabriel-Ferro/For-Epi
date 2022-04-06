@@ -6,18 +6,18 @@
 
 `1° SEMESTRE`
 
-O projeto em questão tem como finalidade a gestão de entrega e descarte dos EPI's para empresas, visando a otimização e auxílio das tarefas inerentes a área de segurança do trabalho.
+O presente estudo para o projeto de sistema de controle de entrega de equipamentos de proteção individual (EPI) tem como objetivo organizar a documentação de entregas, devoluções e evitar o descarte inadequado dos aparelhos utilizados, aprimorando a logística externa ou interna na área da segurança do trabalho, visando reduzir os níveis de estagnação e perda dos acessórios, evitando riscos ambientais e financeiros à empresa. 
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Alan Diego Fiusa Brito
+* Cristhyam Augusto Soares Paraiso
+* Gabriel Rodrigues Ferro
+* Leticia Rose de Santana Lopes
 
 ## Orientador
 
-* Nome completo do professor 1
+* Fabiano Costa Teixeira
 
 ## Instruções de utilização
 
