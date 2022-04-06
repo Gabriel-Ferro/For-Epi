@@ -14,10 +14,34 @@ Os equipamentos de proteção individual são essenciais para garantir a saúde 
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Controlar e documentar (comprovar) efetivamente a entrega de EPI (Equipamento de Proteção Individual) a seus funcionários, pode ser um desafio para a empresa. Com o deficit na gestão de EPI, o extravio das fichas de entrega de EPI se torna bem comum e o risco de enfrentar uma demanda trabalhista ou fiscalização é enorme, tornando a empresa vulnerável. Outro ponto importante é o controle dos vencimentos de cada EPI, para garantir sua efetividade. Uma forma de se proteger de tudo isso é adotar a tecnologia da biometria em seus processos de entrega de EPI, tornando-o 100% digital. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
+Evitar o uso desnecessário de equipamentos de proteção individual entregando o material específico para cada função, na quantidade ideal e com o certificado de aprovação (CA) válido. 
+
+Receber alertas inteligentes sobre a periodicidade de troca dos EPIs dos seus funcionários, controlando a validade dos equipamentos, data de entrega, próxima troca e prazo de validade. 
+
+Indicar treinamentos para uso de EPIs da forma correta através sistema de controle. Registrar os treinamentos ministrados pela empresa e comprovar que os funcionários realmente participaram. 
+
+Atuar e planejar de forma a agregar para que os colaboradores se sintam mais seguro com a periodicidade da troca dos EPI’s, fornecendo maior segurança também em processos, e para quem faz os controles, e dinamizar também os formatos de como os EPI’s entram e saem dos estoques. Testar a acuracidade de como esse EPI é utilizado, evitar também os extravios e mau zelo dos equipamentos, tratando de forma eficaz todos os processos de retirada e manutenção dos equipamentos. 
+
+Manter um controle sistêmico sobre como deverá ser realizado os descartes em conformidade com as normas e padrões que regulamentam os termos ambientais, respeitando as regras, e tendo embasamento jurídico, para os descartes de acordo com cada classe de EPI. 
+
+Auxiliar na geração de dados e estatísticas, visando a melhor administração dos equipamentos, assim como na tomada de decisões mais coerentes e assertivas.
+
+## Objetivos Específicos
+
+Diminuir os custos com EPI a partir do controle informatizado, facilitando o planejamento de compras e quantidades (estoque mínimo). Importar as notas fiscais de compra. Acompanhar diversos relatórios como EPIs mais consumidos por setor/cargo, vencimentos, movimentação, preços da última compra e etc. Com a principal finalidade de supervisionar e dinamizar diretamente a forma como cada EPI entra e saí do estoque. 
+
+Implantar a utilização do uso da biometria para oferecer maior  controle e segurança ao empregador, que garante a entrega do equipamento de proteção adequado ao trabalhador certo, sem que haja desvios de finalidade. 
+
+Manter a rastreabilidade de todos os EPI’s, com uma linguagem simples e objetiva para consultas de relatórios por diversas categorias, que poderão ser parametrizadas no sistema, e buscadas de acordo com o que a gestão e liderança achar de acordo as normas e políticas internas. 
+
+Catalogar todos os equipamentos por subcategorias e periodicidade de troca, através de códigos individuais, e de acordo com as unidades de medidas pertinentes aos materiais. 
+
+Auxiliar na conexão com outras empresas que possam auxíliar no processo de descarte, transporte e reciclagem ou inutilização efetiva dos EPI’s 
+
+Geração de dashbords interativos, visando auxíliar na visualização do maior número de dados inerentes as compras, vendas, distribuição, descarte e alocação dos EPI’s em uso e fora de uso.
+
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
