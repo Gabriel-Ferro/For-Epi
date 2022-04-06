@@ -1,12 +1,12 @@
 # GESTÃO DE ENTREGA E DESCARTE DE EPI's
 
-`CURSO`
+`CURSOS SUPERIOR DE TECNOLOGIA EM SISTEMAS PARA INTERNET`
 
-`DISCIPLINA`
+`PROJETO APLICAÇÕES WEB`
 
-`SEMESTRE`
+`1° SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto em questão tem como finalidade a gestão de entrega e descarte dos EPI's para empresas, visando a otimização e auxílio das tarefas inerentes a área de segurança do trabalho.
 
 ## Integrantes
 
