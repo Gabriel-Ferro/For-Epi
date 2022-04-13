@@ -11,6 +11,12 @@ Residente em Montes Claros – MG, 27 anos, casado e com três filhos, adora via
 **Angela Monique** <br/>
 Residente em Belo Horizonte – MG, 32 anos, engenheira química, solteira e mora sozinha com seus dois gatos, adora ler, meditar e ama passar momentos sozinhas ouvindo música classica. Trabalha em uma empresa química e em 2010 sofreu um acidente que amputou dois dedos da sua mão esquerda por não estar usando o EPI corretamente. Após o acidente, Angela se manteve atenta na importância do uso do EPI, e conscientiza todos os seus colegas para a importância do seu uso. Mesmo com as dificuldades, sonha em cursar um mestrado e um doutorado, para contribuir ainda mais na área em que trabalha. 
 
+**Vladimir Augusto** <br/>
+Residente em Sorocaba – SP, 21 anos, solteiro, cursando e atuando como técnico em segurança do trabalho. Adora estudar e é um entusiasta de carros de corrida. Trabalha em uma grande empresa do ramo de mecânica automobilística, e conforme estuda no seu curso, consegue entender profundamente a necessidade das empresas e dos colaboradores em manterem-se seguros com o uso de EPI’s. Vladimir também percebe que na empresa em que trabalha, muito dos resíduos são reciclados e retornam para o ciclo de produção de outras empresas.
+
+**Roberto Tavares** <br/>
+Residente em Salvador – BA, 40 anos, casado e com dois filhos adolescentes. Adora ler notícias sobre o mundo e atualidades, e é um aficionado por séries e filmes. Atua no ramo de reciclagem de resíduos empresariais de uma grande empresa que coleta e destina para reciclagem ou descarte os mais diversos materiais em todo o território da Bahia e proximidades. Trabalhou mais da metade da sua vida nessa empresa, e entende a importância da reciclagem, sobretudo do destino correto de cada material, contudo, percebe que a empresa precisa de um olhar tecnológico, que possa informatizar e agregar na agilidade dos processos.
+
 ## Histórias de Usuários
 
 Com base na análise das personas foram identificadas as seguintes histórias de usuários:
