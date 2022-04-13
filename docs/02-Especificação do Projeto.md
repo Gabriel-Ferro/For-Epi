@@ -17,10 +17,33 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
-
+<table border="1">
+    <tr>
+        <th>EU COMO (PERSONA) </th> <th>QUERO/PRECISO (FUNCIONALIDADE) </th> <th>PARA (MOTIVO/VALOR) </th>
+    </tr>
+    <tr>
+        <td>Usuário do sistema</td> <td>Ter histórico do que já foi entregue em datas passadas</td> <td>Controle do que me foi entregue </td>
+    </tr>
+    <tr>
+        <td>Usuário do sistema</td> <td>Saber quando o EPI esta próximo de perder a validade</td><td>Poder fazer a troca com o supervisor </td>
+    </tr>
+    <tr>
+        <td>Usuário do sistema</td><td>Saber onde posso entregar o equipamento vencido</td><td>Cumprir com as regularidades da segurança do trabalho</td>
+    </tr>
+    <tr>
+        <td>Usuário do sistema</td><td>Devolver/trocar o meu EPI de forma ágil</td><td>Poder voltar a exercer minhas atividades na empresa de forma rápida e segura</td>
+    </tr>
+    <tr>
+        <td>Usuário do sistema</td><td>Ter acesso a informações da importância do uso do EPI</td><td>Poder entender melhor os motivos para cumprir com os deveres inerentes a segurança do trabalho</td>
+    </tr>
+    <tr>
+        <td>Usuário do sistema</td><td>Ser notificado pelo aplicativo ou SMS quando o EPI estiver próximo do vencimento</td><td>Efetuar a troca do EPI. </td>
+    </tr>
+    <tr>
+        <td>Usuário do sistema</td><td>Saber quais EPI’s devo usar no exercer da minha profissão</td><td>Manter-me seguro e protegido</td>
+    </tr>
+</table>
 
 ## Requisitos
 
