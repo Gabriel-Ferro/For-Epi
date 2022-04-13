@@ -13,10 +13,7 @@ Residente em Belo Horizonte – MG, 32 anos, engenheira química, solteira e mor
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
-
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
+Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
 <table border="1">
     <tr>
@@ -42,6 +39,42 @@ Com base na análise das personas forma identificadas as seguintes histórias de
     </tr>
     <tr>
         <td>Usuário do sistema</td><td>Saber quais EPI’s devo usar no exercer da minha profissão</td><td>Manter-me seguro e protegido</td>
+    </tr>
+</table>
+
+<table border="1">
+     <tr>
+        <th>EU COMO (ADMINISTRADOR) </th> <th>QUERO/PRECISO (FUNCIONALIDADE) </th> <th>PARA (MOTIVO/VALOR) </th>
+    </tr>
+    <tr>
+        <td>Administrador do sistema</td> <td>Cadastrar todos os funcionários da empresa.</td> <td>Controlar a entrega do EPI e gerar dados de entregas.</td>
+    </tr>
+    <tr>
+        <td>Administrador do sistema</td> <td>Classificar e agrupar funcionários conforme atuação e riscos provenientes do trabalho exercido.</td> <td>Classificar a entrega do EPI e organizar quais EPI’s devem ser entregues.</td>
+    </tr>
+    <tr>
+        <td>Administrador do sistema</td> <td>Cadastrar a biometria do colaborador.</td> <td>Agilizar o processo de entrega de EPI’s.</td>
+    </tr>
+     <tr>
+        <td>Administrador do sistema</td> <td>Emitir notificações para cada colaborador de forma simultânea ou individual sobre o vencimento e troca do seu EPI.</td> <td>Efetuar a troca do EPI do colaborador.</td>
+    </tr>
+      <tr>
+        <td>Administrador do sistema</td> <td>Poder cadastrar todos os EPI’s em estoque, assim como a quantidade e data de vencimento de todos eles.</td> <td>Manter controle de estoque e evitar perdas de EPI’S por vencimento, devido ao mau gerenciamento de estoque.</td>
+    </tr>
+     <tr>
+        <td>Administrador do sistema</td> <td>Registrar treinamentos sobre os mais diversos temas relacionados a segurança do trabalho.</td> <td>Conscientizar o trabalhador sobre suas obrigações médicas e legais.</td>
+    </tr>
+    <tr>
+        <td>Administrador do sistema</td> <td>Monitorar todos os EPI’s descartados.</td> <td>Ter dados e acesso a informação para posteriormente descartar os EPI’s de forma correta.</td>
+    </tr>
+     <tr>
+        <td>Administrador do sistema</td> <td>Gerar dashboards e planilhas com informações de usuário, EPI’s, dados de entregas, dados de saída, e etc.</td> <td>Conseguir tomar decisões mais assertivas com base nas informações geradas pelo aplicativo.</td>
+    </tr>
+    <tr>
+        <td>Administrador do sistema</td> <td>Ter acesso a normas de uso e descartes de EPI’s.</td> <td>Ter conhecimento das leis e agir de forma mais assertiva em relação a elas.</td>
+    </tr>
+     <tr>
+        <td>Administrador do sistema</td> <td>Receber alertas caso algum funcionário esteja com o EPI vencido ou que não tenha efetuado a troca na data correta.</td> <td>Organizar, controlar e auxiliar os colaboradores no cumprimento do seu dever como funcionário.</td>
     </tr>
 </table>
 
