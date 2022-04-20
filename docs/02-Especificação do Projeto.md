@@ -84,39 +84,80 @@ Com base na análise das personas foram identificadas as seguintes histórias de
     </tr>
 </table>
 
-## Requisitos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
-
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+<table border="1">
+    <tr>
+        <th>ID  </th> <th>Descrição do Requisito </th> <th>Prioridade </th>
+    </tr>
+    <tr>
+        <td>RF-001 </td> <td>Permitir que o usuário e administrador acesse sua conta</td> <td>ALTA </td>
+    </tr>
+    <tr>
+        <td>RF-002 </td> <td>Permitir que o administrado registre a entrega do equipamento</td> <td>ALTA </td>
+    </tr>
+    <tr>
+        <td>RF-003 </td> <td>Informar a importação da utilização do EPI</td> <td>MÉDIA </td>
+    </tr>
+    <tr>
+        <td>RF-004 </td> <td>Notificações da não devolução de acessórios</td> <td>ALTA </td>
+    </tr>
+    <tr>
+        <td>RF-005 </td> <td>Permitir que o administrador cadastre cada colaborador individualmente</td> <td>ALTA </td>
+    </tr>
+    <tr>
+        <td>RF-006 </td> <td>Permitir que o administrado cadastre cada EPI de forma individual</td> <td>ALTA </td>
+    </tr>
+    <tr>
+        <td>RF-007 </td> <td>Permitir que o administrador exclua o cadastro do colaborador quando necessário</td> <td>ALTA </td>
+    </tr>
+    <tr>
+        <td>RF-008 </td> <td>Permitir que o colaborador veja quais EPI’s está usando</td> <td>ALTA </td>
+    </tr>
+    <tr>
+        <td>RF-009 </td> <td>Permitir que o colaborador veja o histórico de quando devolveu cada EPI</td> <td>MÉDIA </td>
+    </tr>
+    <tr>
+        <td>RF-010 </td> <td>Permitir que o administrador gere planilhas com dados de EPI descartados</td> <td>MÉDIA </td>
+    </tr>
+    <tr>
+        <td>RF-011 </td> <td>Permitir que o administrador consiga cadastrar a sua conta</td> <td>ALTA </td>
+    </tr>
+    <tr>
+        <td>RF-012 </td> <td>O Sistema deve enviar SMS para o celular do colaborador indicando que a devolução do EPI não está em dia</td> <td>MÉDIA </td>
+    </tr>
+</table>
 
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+<table border="1">
+    <tr>
+         <th>ID  </th> <th>Descrição do Requisito </th> <th>Prioridade </th>
+    </tr>
+    <tr>
+        <td>RNF-001 </td> <td>Controle de devolução e entrega de cada usuário </td> <td>ALTA </td>
+    </tr>
+    <tr>
+        <td>RNF-002 </td> <td>Interface Intuitiva  </td> <td>MÉDIA </td>
+    </tr>
+    <tr>
+        <td>RNF-003 </td> <td>Bloqueio temporário da conta do usuário que não devolver o equipamento   </td> <td>ALTA </td>
+    </tr>
+    <tr>
+        <td>RNF-004 </td> <td>O sistema deve funcionar em todos os principais navegadores  </td> <td>MÉDIA </td>
+    </tr>
+    <tr>
+        <td>RNF-005 </td> <td>Rodar na WEB e em dispositivos mobile de forma responsiva  </td> <td>ALTA </td>
+    </tr>
+    <tr>
+        <td>RNF-006 </td> <td>A interface do sistema deverá se comportar adequadamente independente do front-end que será utilizado para acesso – Browser, Smartphone ou Tablet  </td> <td>ALTA </td>
+    </tr>
+    <tr>
+        <td>RNF-007 </td> <td>Para o sistema será aplicado rigorosamente as atualizações dos fabricantes, sempre que são liberadas  </td> <td>ALTA </td>
+        </tr>
+</table>
+    
 
 ## Restrições
 
