@@ -1,5 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 * {
-    background-color: #232424;
+    
+    background: #2c3333db;;
 }
 
 a {
@@ -22,7 +28,7 @@ h1 {
     margin: 20px;
 
 } 
-.log-out {
+.gambiarra {
     padding-top: 90px;
     
 }
@@ -34,11 +40,22 @@ nav {
     
 }
 
-.titulo{
-    color: white;
-    font-size: 40px;
-    position: relative;
-    left: 180px;    
+.linha-vertical {
+    border-left: 6px solid #117050;
+    margin: 0;
+    position:absolute;
+    height: 100%;
+    left: 92px;
+    top: 0px;
+
+}
+
+.linha-horizontal {
+    border: 3px solid #117050;
+    width: 86px;
+    position: absolute;
+    bottom: 150px;
+
 }
 
 .logo {
@@ -50,26 +67,15 @@ nav {
 .line-home {
     background-color: #117050;
     height: 10px;
-}
-
-.linha-vertical {
-    border-left: 6px solid #00FF7F;
-    margin: 0;
-    position:absolute;
-    height: 100%;
-    left: 92px;
-    top: 0px;
-
-}
-
-.linha-horizontal {
-    border: 3px solid #00FF7F;
-    width: 86px;
-    position: absolute;
-    bottom: 150px;
-
-}
-
+  }
+  
+  .titulo{
+      color: white;
+      font-size: 40px;
+      position: relative;
+      left: 180px;    
+  }
+  
 footer {
     flex-direction: row;
     padding: 24px 10%; 
@@ -81,4 +87,8 @@ footer {
     color: white;
     font-size: 20px;
     padding: 50px 20px;
+}
+
+.container{
+    display: flex;
 }
