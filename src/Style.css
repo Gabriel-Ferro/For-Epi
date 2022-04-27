@@ -1,0 +1,66 @@
+* {
+    background-color: #232424;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+    font-family: "Josefin Sans";
+}
+
+h1 {
+    color: white;
+    font-size: 20px;
+    font-family: "Josefin Sans";
+}
+
+.Icon {
+    color: #00FF7F;
+    width: 50px;
+    height: 50px;
+    padding-bottom: 10px;
+    margin: 20px;
+
+} 
+.gambiarra {
+    padding-top: 90px;
+    
+}
+
+nav {
+    Display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+
+.Title {
+    font-size: 40px;
+    position: absolute;
+    width: 455px;
+    height: 50px;
+    left: 180px;
+    top: 18px;
+}
+
+.linha-vertical {
+    border-left: 6px solid #00FF7F;
+    margin: 0;
+    position:absolute;
+    height: 100%;
+    left: 92px;
+    top: 0px;
+
+}
+
+.linha-horizontal {
+    border: 3px solid #00FF7F;
+    width: 86px;
+    position: absolute;
+    bottom: 150px;
+
+}
+
+
+
+
