@@ -22,7 +22,7 @@ h1 {
     margin: 20px;
 
 } 
-.gambiarra {
+.log-out {
     padding-top: 90px;
     
 }
@@ -34,13 +34,22 @@ nav {
     
 }
 
-.Title {
+.titulo{
+    color: white;
     font-size: 40px;
-    position: absolute;
-    width: 455px;
-    height: 50px;
-    left: 180px;
-    top: 18px;
+    position: relative;
+    left: 180px;    
+}
+
+.logo {
+    height: 80px; 
+    width: 80px; 
+    margin: 10px;
+}
+
+.line-home {
+    background-color: #117050;
+    height: 10px;
 }
 
 .linha-vertical {
