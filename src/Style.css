@@ -61,6 +61,15 @@ nav {
 
 }
 
+footer {
+    flex-direction: row;
+    padding: 24px 10%; 
+    background-color: #232424;
+  }
 
-
-
+.copyright{
+    background: #232424;
+    color: white;
+    font-size: 20px;
+    padding: 50px 20px;
+}
