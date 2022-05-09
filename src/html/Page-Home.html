@@ -1,40 +1,46 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>For EPI </title>
-  <link rel="shortcut icon" href="../Assets/img/Logo - For EPI 2.png" type="img/x-png" />
-  <link href="../css/style.inicio.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="/pmv-sint-2022-1-e1-proj-web-t1-grupo-08/src/css/Style-Home.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <img src="../Assets/img/Logo - For EPI 2.png" alt="some text" width=80 height=60>
-      <ul>
-        <li class="active"> <a href=""> Você está na área do administrador </a> </li>
-        <li><a href="">Ajuda</a></li>
-      </ul>
+
+    <div class="logo">
+        <img class = "logo2" src="/pmv-sint-2022-1-e1-proj-web-t1-grupo-08/src/Assets/img/Logo - For EPI 2.png" alt="LOGO FOR EPI"> 
     </div>
-  </header>
-  <div class="home">
-    <div class="users">
-      <div class="register" onclick="changeBgColor('#00FF7F')">
-        <i class="Icon" data-feather="user"></i>
-        <h4 class="label">Cadastro</h4>
-      </div>
-      <div class="login" onclick="changeBgColor('#00FF7F')">
-        <i class="Icon" data-feather="user"></i>
-        <h4 class="label">Login</h4>
-      </div>
+    
+    <main class="container">   
+        <div class="administrador" onclick="changeBgColor('#00FF7F')">  
+            <div class="circle">
+                <i class="icon" data-feather="user"></i>
+            </div>
+            <p>Administrador</p>
+        </div>
+
+        <div class="colaborador" onclick="changeBgColor('#00FF7F')">
+            <div class="circle">
+                <i class="icon" data-feather="user"></i>
+            </div>
+            <p>Colaborador</p>
+        </div>  
+    </main>    
+
+    <div class="container-botao">
+        <div id="botao">
+
+            <a href="../html/Tela-login.html">
+                <input type="submit"  name="botao" value="Confirmar" class="botaoEnviar" />
+            </a>
+        </div>
     </div>
-  </div>
-  <div id="botao">
-    <input type="submit" name="botao" value="Confirmar" class="botaoEnviar" />
-  </div>
+
+    <script src="../JS/Scripti-PageHome.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>feather.replace()</script>
 </body>
-<script src="../JS/script.js"></script>
-<script src="https://unpkg.com/feather-icons"></script>
-<script>feather.replace()</script>
 </html>
