@@ -131,7 +131,6 @@ ul{
     color: #fff;
     padding: 5px 20px;
     border: 1px solid transparent;
-    border-radius: 10px;
     transition: 0.6s ease;
   }
     
@@ -142,5 +141,5 @@ ul{
   
   ul li.active a{
     background-color: #fff;
-    color: #000; 
-}
+    color: #000;
+  }
