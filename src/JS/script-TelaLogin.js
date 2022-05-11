@@ -31,3 +31,11 @@ log.addEventListener('click',function(){
     login.style.display="none";
   }
 })
+
+let salvarDados = function (){
+  let email = document.getElementById('mail').value;
+  let username = document.getElementById('username').value;
+  localStorage.setItem('Email:', email);
+  localStorage.setItem('Nome de Usuário:', username);
+};
+document.onchange = salvarDados;
