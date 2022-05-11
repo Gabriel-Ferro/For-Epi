@@ -1,43 +1,72 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>For EPI </title>
-        <link rel="shortcut icon" href="/pmv-sint-2022-1-e1-proj-web-t1-grupo-08/src/Assets/img/Logo - For EPI 2.png" type="img/x-png" />
-        <link rel="stylesheet" href="/pmv-sint-2022-1-e1-proj-web-t1-grupo-08/src/css/Style.index.css">
-        <script src="https://unpkg.com/feather-icons"></script>
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/Style-Index.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
 
-    <body>
-        <header>
-            <div class="line-home"></div>
-            <div class="container">
-                <img class="logo" src="assets/img/Logo.png" alt="Logo" />
-                <p class="titulo">Você Está na Área do Administrador!</p>
-            </div>
-        </header> 
-        <section class="Menu">
-            <nav>
-                <i class="Icon" data-feather="user"></i>
-                <i class="Icon" data-feather="user-check"></i>
-                <i class="Icon" data-feather="trending-up"></i>
-                <i class="Icon" data-feather="check-square"></i>
-                <i class="Icon" data-feather="book-open"></i>
-                <i class="Icon" data-feather="alert-triangle"></i>
-                <i class="Icon gambiarra" data-feather="log-out"></i>
-            </nav>
-        </section>
+    <div class="box-img-linhas">
+        <div class="line-home"></div>
         <div class="linha-vertical"></div>
+        <img class="logo" src="../Assets/img/Logo - For EPI 2.png" alt="LOGO FOR EPI"/>
         <div class="linha-horizontal"></div>
-        <footer>
-            <div >
-                <p class="copyright">&copy; Copyright For EPI - 2022</p>
-            </div>
-          </footer>
-        <script>
-            feather.replace()
-        </script>
-    </body>
+    </div>
+
+    <header>
+        <h4>Você está na Área do Administrador!</h4>
+        <h4>Ajuda</h4>
+    </header>
+
+    <div class="Container-geral">
+        <nav class="menu">
+            <i class="Icon" data-feather="user"></i>
+            <i class="Icon cadastro" data-feather="user-check"></i>
+            <i class="Icon" data-feather="trending-up"></i>
+            <i class="Icon" data-feather="check-square"></i>
+            <i class="Icon" data-feather="book-open"></i>
+            <i class="Icon" data-feather="alert-triangle"></i>
+            <i class="Icon" data-feather="log-out"></i>
+        </nav>
+        <div class="Container_main">
+            <div class="container">
+                <div class="container_box">
+                  <div class="lg">
+                    <h3 class="active log title">Cadastro do Colaborador</h3>
+                  </div>
+                  <div class="form form_login">
+                    <form>
+                      <label for="user">Nome do Colaborador</label>
+                      <input id="user" type="text" name="user" autocomplete="off">
+                      <label for="CPF">CPF</label>
+                      <input type="text" name="CPF" id="CPF">
+                      <label for="Number-cel">Número de Telefone</label>
+                      <input type="text" name="Number-Cel" id="Number-cel">
+                      <label for="ID">ID do Craichá</label>
+                      <input type="text" name="ID" id="ID">
+                      <label for="cargo">Cargo</label>
+                      <Input type="Text" name="cargo" id="cargo">  
+                      <input type="submit" class="btn" value="Cadastrar">
+                    </form>
+                    <p>Precisa de Ajuda?</p>
+                  </div>
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <p class="copyright">&copy; Copyright For EPI - 2022</p>
+        </div>
+    </footer>
+
+    <script>
+        feather.replace()
+    </script>
+    <script src="../JS/index.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+</body>
 </html>
