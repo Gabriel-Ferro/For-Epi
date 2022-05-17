@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,12 +10,13 @@
     <script src="https://unpkg.com/feather-icons"></script>
     <link rel="shortcut icon" href="../Assets/img/Logo - For EPI 2.png" type="img/x-png" />
 </head>
+
 <body>
 
     <div class="box-img-linhas">
         <div class="line-home"></div>
         <div class="linha-vertical"></div>
-        <img class="logo" src="../Assets/img/Logo - For EPI 2.png" alt="LOGO FOR EPI"/>
+        <img class="logo" src="../Assets/img/Logo - For EPI 2.png" alt="LOGO FOR EPI" />
         <div class="linha-horizontal"></div>
     </div>
 
@@ -36,38 +38,40 @@
         <div class="Container_main">
             <div class="container">
                 <div class="container_box">
-                  <div class="lg">
-                    <h3 class="active log title">Cadastro do Colaborador</h3>
-                  </div>
-                  <div class="form form_login">
-                    <form>
-                      <label for="user">Nome do Colaborador</label>
-                      <input id="user" type="text" name="user" autocomplete="off">
-                      <label for="CPF">CPF</label>
-                      <input type="text" name="CPF" id="CPF">
-                      <label for="Number-cel">Número de Telefone</label>
-                      <input type="text" name="Number-Cel" id="Number-cel">
-                      <label for="ID">ID do Crachá</label>
-                      <input type="text" name="ID" id="ID">
-                      <label for="cargo">Cargo</label>
-                      <Input type="Text" name="cargo" id="cargo">  
-                      <input type="submit" class="btn" value="Cadastrar">
-                    </form>
-                    <p>Precisa de Ajuda?</p>
-                  </div>
-        </div>
-    </div>
+                    <div class="lg">
+                        <h3 class="active log title">Cadastro do Colaborador</h3>
+                    </div>
+                    <div class="form form_login">
+                        <form id="preventdefault">
+                            <label for="user">Nome do Colaborador</label>
+                            <input id="user" type="text" name="user" autocomplete="off">
+                            <label for="CPF">CPF</label>
+                            <input type="text" name="CPF" id="CPF">
+                            <label for="Number-cel">Número de Telefone</label>
+                            <input type="text" name="Number-Cel" id="Number-cel">
+                            <label for="ID">ID do Crachá</label>
+                            <input type="text" name="ID" id="ID">
+                            <label for="cargo">Cargo</label>
+                            <Input type="Text" name="cargo" id="cargo">
+                            <button onclick="adiciona()" class="btn">Cadastrar</button>
+                            <!-- <input type="submit" class="btn" value="Cadastrar" onclick="adiciona()"> -->
+                            <form />
+                            <p>Precisa de Ajuda?</p>
+                    </div>
+                </div>
+            </div>
 
-    <footer>
-        <div>
-            <p class="copyright">&copy; Copyright For EPI - 2022</p>
-        </div>
-    </footer>
+            <footer>
+                <div>
+                    <p class="copyright">&copy; Copyright For EPI - 2022</p>
+                </div>
+            </footer>
 
-    <script>
-        feather.replace()
-    </script>
-    <script src="../JS/index.js"></script>
-    <script src="https://unpkg.com/feather-icons"></script>
+            <script>
+                feather.replace()
+            </script>
+            <script src="../JS/index.js"></script>
+            <script src="https://unpkg.com/feather-icons"></script>
 </body>
+
 </html>
