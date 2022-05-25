@@ -30,12 +30,13 @@
             <i class="Icon" data-feather="user"></i>
             <i class="Icon cadastro" data-feather="user-check"></i>
             <i class="Icon" data-feather="trending-up"></i>
-            <i class="Icon" data-feather="check-square"></i>
+            <i class="Icon cadastroEPI" data-feather="check-square"></i>
             <i class="Icon" data-feather="book-open"></i>
             <i class="Icon" data-feather="alert-triangle"></i>
             <i class="Icon" data-feather="log-out"></i>
         </nav>
-        <div class="Container_main">
+        <!-- Tela de cadastro de Colaborador -->
+        <div class="Container_main mainColab">
             <div class="container">
                 <div class="container_box">
                     <div class="lg">
@@ -54,24 +55,55 @@
                             <label for="cargo">Cargo</label>
                             <Input type="Text" name="cargo" id="cargo">
                             <button onclick="adiciona()" class="btn">Cadastrar</button>
-                            <!-- <input type="submit" class="btn" value="Cadastrar" onclick="adiciona()"> -->
                             <form />
                             <p>Precisa de Ajuda?</p>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <footer>
-                <div>
-                    <p class="copyright">&copy; Copyright For EPI - 2022</p>
+        <!-- Tela de cadastro de EPI -->
+        <div class="Container_main mainEPI">
+            <div class="container">
+                <div class="Container_BOXEPI">
+                    <div class="lg">
+                        <h3 class="active log title">Cadastro de EPI</h3>
+                    </div>
+                    <div class="form form_login">
+                        <form id="preventdefault2">
+                            <label for="EPI">Tipo de EPI</label>
+                            <input id="EPI" type="text" name="EPI" autocomplete="off">
+                            <label for="CA">Certificado de aprovação (CA)</label>
+                            <input type="text" name="CA" id="CA">
+                            <label for="NumberLote">Número do Lote</label>
+                            <input type="text" name="Number-Lote" id="Number-Lote">
+                            <label for="Fabricante">Fabricante</label>
+                            <input type="text" name="Fabricante" id="Fabricante">
+                            <label for="DataVal">Data de validade</label>
+                            <Input type="Text" name="DataVal" id="DataVal">
+                            <label for="DataEnter">Data de entrada</label>
+                            <Input type="Text" name="DataEnter" id="DataEnter">
+                            <button onclick="adiciona()" class="btn">Cadastrar</button>
+                            <form />
+                            <p>Precisa de Ajuda?</p>
+                    </div>
                 </div>
-            </footer>
+            </div>
+        </div>
+    </div>
 
-            <script>
-                feather.replace()
-            </script>
-            <script src="../JS/index.js"></script>
-            <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- <footer>
+        <div>
+            <p class="copyright">&copy; Copyright For EPI - 2022</p>
+        </div>
+    </footer> -->
+
+    <script>
+        feather.replace()
+    </script>
+    <script src="../JS/index.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
 </body>
 
 </html>
