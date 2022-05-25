@@ -1,17 +1,37 @@
+//Declarações de variáveis do localstorage
 var localStorage = Window.localStorage;
 var contador = 0;
 var objetos = new Array();
 var json = localStorage.getItem("colaborador");
 objetos = JSON.parse(json);
-contador = objetos.length;
+// var contador = objetos.length;
 
+//Definição de constantes para interação com a box de cadastro/busca
 const login = document.querySelector(".container_box");
 const mainColab = document.querySelector(".mainColab");
 const loginEPI = document.querySelector(".Container_BOXEPI");
 const mainEPI = document.querySelector(".mainEPI");
+const colab = document.querySelector(".container_boxbuscaColab");
+const mainbuscaColab = document.querySelector(".buscaColab");
+const mainbuscaEPI = document.querySelector(".container_buscaEPI");
+const relacaoEPI = document.querySelector(".relacaoEPI");
+const relacaoVenc = document.querySelector(".Container_boxAvisoEPI");
+const mainAvisoEPI = document.querySelector(".warningEPI");
+
+//Definição de constantes para animação da navBar
+const iconCadastro = document.querySelector(".cadcolab");
+const iconColab = document.querySelector(".colab");
+const linhaVert = document.querySelector(".linha-vertical");
+const selecto = document.getElementsByClassName("p-");
+
+//Definição de constante para interação com os icones da navBar
 const cadastro = document.querySelector(".cadastro");
 const cadastroEPI = document.querySelector(".cadastroEPI");
+const buscaColab = document.querySelector(".colaboradores");
+const buscaEPI = document.querySelector(".buscaEPI");
+const envioAviso = document.querySelector(".alertaEPI");
 
+//Ativa e desativa a box de cadastro do colaborador
 cadastro.addEventListener("click", function () {
   cadastro.classList.toggle("active");
   if (cadastro.classList.contains("active")) {
@@ -19,12 +39,26 @@ cadastro.addEventListener("click", function () {
     login.style.display = "block";
     loginEPI.style.display = "none";
     mainEPI.style.display = "none";
+    colab.style.display = "none";
+    mainbuscaColab.style.display = "none";
+    mainbuscaEPI.style.display = "none";
+    relacaoEPI.style.display = "none";
+    mainAvisoEPI.style.display = "none";
+    relacaoVenc.style.display = "none";
+    selecto[0].classList.toggle("show");
+    selecto[1].classList.toggle("show");
+    selecto[2].classList.toggle("show");
+    selecto[3].classList.toggle("show");
+    selecto[4].classList.toggle("show");
+    selecto[5].classList.toggle("show");
+    linhaVert.classList.toggle("teste");
   } else {
     login.style.display = "none";
     mainColab.style.display = "none";
   }
 });
 
+//Ativa e desativa a box de cadastro de EPI
 cadastroEPI.addEventListener("click", function () {
   cadastroEPI.classList.toggle("active");
   if (cadastroEPI.classList.contains("active")) {
@@ -32,12 +66,107 @@ cadastroEPI.addEventListener("click", function () {
     loginEPI.style.display = "block";
     login.style.display = "none";
     mainColab.style.display = "none";
+    colab.style.display = "none";
+    mainbuscaColab.style.display = "none";
+    mainbuscaEPI.style.display = "none";
+    relacaoEPI.style.display = "none";
+    mainAvisoEPI.style.display = "none";
+    relacaoVenc.style.display = "none";
+    selecto[0].classList.toggle("show");
+    selecto[1].classList.toggle("show");
+    selecto[2].classList.toggle("show");
+    selecto[3].classList.toggle("show");
+    selecto[4].classList.toggle("show");
+    selecto[5].classList.toggle("show");
+    linhaVert.classList.toggle("teste");
   } else {
     loginEPI.style.display = "none";
     mainEPI.style.display = "none";
   }
 });
 
+//Ativa e desativa a box de busca colaboradores
+buscaColab.addEventListener("click", function () {
+  buscaColab.classList.toggle("active");
+  if (buscaColab.classList.contains("active")) {
+    colab.style.display = "block";
+    mainbuscaColab.style.display = "block";
+    mainEPI.style.display = "none";
+    loginEPI.style.display = "none";
+    login.style.display = "none";
+    mainColab.style.display = "none";
+    mainbuscaEPI.style.display = "none";
+    relacaoEPI.style.display = "none";
+    mainAvisoEPI.style.display = "none";
+    relacaoVenc.style.display = "none";
+    selecto[0].classList.toggle("show");
+    selecto[1].classList.toggle("show");
+    selecto[2].classList.toggle("show");
+    selecto[3].classList.toggle("show");
+    selecto[4].classList.toggle("show");
+    selecto[5].classList.toggle("show");
+    linhaVert.classList.toggle("teste");
+  } else {
+    colab.style.display = "none";
+    mainbuscaColab.style.display = "none";
+  }
+});
+
+//Ativa e desativa a box de relacaoEPI
+buscaEPI.addEventListener("click", function () {
+  buscaEPI.classList.toggle("active");
+  if (buscaEPI.classList.contains("active")) {
+    mainbuscaEPI.style.display = "block";
+    relacaoEPI.style.display = "block";
+    colab.style.display = "none";
+    mainbuscaColab.style.display = "none";
+    mainEPI.style.display = "none";
+    loginEPI.style.display = "none";
+    login.style.display = "none";
+    mainColab.style.display = "none";
+    mainAvisoEPI.style.display = "none";
+    relacaoVenc.style.display = "none";
+    selecto[0].classList.toggle("show");
+    selecto[1].classList.toggle("show");
+    selecto[2].classList.toggle("show");
+    selecto[3].classList.toggle("show");
+    selecto[4].classList.toggle("show");
+    selecto[5].classList.toggle("show");
+    linhaVert.classList.toggle("teste");
+  } else {
+    mainbuscaEPI.style.display = "none";
+    relacaoEPI.style.display = "none";
+  }
+});
+
+//Ativa e desativa a box de alarme de EPI
+envioAviso.addEventListener("click", function () {
+  envioAviso.classList.toggle("active");
+  if (envioAviso.classList.contains("active")) {
+    mainAvisoEPI.style.display = "block";
+    relacaoVenc.style.display = "block";
+    mainColab.style.display = "none";
+    login.style.display = "none";
+    loginEPI.style.display = "none";
+    mainEPI.style.display = "none";
+    colab.style.display = "none";
+    mainbuscaColab.style.display = "none";
+    mainbuscaEPI.style.display = "none";
+    relacaoEPI.style.display = "none";
+    selecto[0].classList.toggle("show");
+    selecto[1].classList.toggle("show");
+    selecto[2].classList.toggle("show");
+    selecto[3].classList.toggle("show");
+    selecto[4].classList.toggle("show");
+    selecto[5].classList.toggle("show");
+    linhaVert.classList.toggle("teste");
+  } else {
+    mainAvisoEPI.style.display = "none";
+    relacaoVenc.style.display = "none";
+  }
+});
+
+//Adiciona dados na localstorage
 function adiciona() {
   var x = new Object();
   x.user = document.getElementById("user").value;
@@ -56,20 +185,91 @@ function adiciona() {
   document.getElementById("cargo").value = "";
   document.getElementById("user").focus();
 }
+
+//Grava dados no local storage
 function gravaDados() {
   var json = JSON.stringify(objetos);
   localStorage.setItem("colaborador", json);
 }
+
+//Busca os dados na local storage e armazena em um vetor de objetos
 function buscaDados() {
-  //Busca os dados na local storage e armazena em um vetor de objetos
   var json = localStorage.getItem("colaborador");
   objetos = JSON.parse(json);
   contador = objetos.length;
   console.log(objetos[0].nome);
 }
 
+//Previne que o form não atualize a pagina após o envio do formulário.
 const form = document.getElementById("preventdefault");
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   console.log("Deu certo");
 });
+
+//Função para criar animação da sidebar
+buscaColab.addEventListener(
+  "mouseenter",
+  function (event) {
+    selecto[0].classList.toggle("show");
+    selecto[1].classList.toggle("show");
+    selecto[2].classList.toggle("show");
+    selecto[3].classList.toggle("show");
+    selecto[4].classList.toggle("show");
+    selecto[5].classList.toggle("show");
+    linhaVert.classList.toggle("teste");
+  },
+  false
+);
+cadastro.addEventListener(
+  "mouseenter",
+  function (event) {
+    linhaVert.classList.toggle("teste");
+    selecto[0].classList.toggle("show");
+    selecto[1].classList.toggle("show");
+    selecto[2].classList.toggle("show");
+    selecto[3].classList.toggle("show");
+    selecto[4].classList.toggle("show");
+    selecto[5].classList.toggle("show");
+  },
+  false
+);
+cadastroEPI.addEventListener(
+  "mouseenter",
+  function (event) {
+    linhaVert.classList.toggle("teste");
+    selecto[0].classList.toggle("show");
+    selecto[1].classList.toggle("show");
+    selecto[2].classList.toggle("show");
+    selecto[3].classList.toggle("show");
+    selecto[4].classList.toggle("show");
+    selecto[5].classList.toggle("show");
+  },
+  false
+);
+buscaEPI.addEventListener(
+  "mouseenter",
+  function (event) {
+    linhaVert.classList.toggle("teste");
+    selecto[0].classList.toggle("show");
+    selecto[1].classList.toggle("show");
+    selecto[2].classList.toggle("show");
+    selecto[3].classList.toggle("show");
+    selecto[4].classList.toggle("show");
+    selecto[5].classList.toggle("show");
+  },
+  false
+);
+envioAviso.addEventListener(
+  "mouseenter",
+  function (event) {
+    linhaVert.classList.toggle("teste");
+    selecto[0].classList.toggle("show");
+    selecto[1].classList.toggle("show");
+    selecto[2].classList.toggle("show");
+    selecto[3].classList.toggle("show");
+    selecto[4].classList.toggle("show");
+    selecto[5].classList.toggle("show");
+  },
+  false
+);

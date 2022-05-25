@@ -26,21 +26,86 @@
     </header>
 
     <div class="Container-geral">
+        <!-- Menu de navegação lateral -->
         <nav class="menu">
-            <i class="Icon" data-feather="user"></i>
+            <i class="Icon colaboradores" data-feather="user"></i>
             <i class="Icon cadastro" data-feather="user-check"></i>
-            <i class="Icon" data-feather="trending-up"></i>
+            <i class="Icon buscaEPI" data-feather="trending-up"></i>
             <i class="Icon cadastroEPI" data-feather="check-square"></i>
             <i class="Icon" data-feather="book-open"></i>
-            <i class="Icon" data-feather="alert-triangle"></i>
+            <i class="Icon alertaEPI" data-feather="alert-triangle"></i>
             <i class="Icon" data-feather="log-out"></i>
         </nav>
+
+        <div class="nomeIcon">
+            <p class="p- colab">Colaborador</p>
+            <p class="p- cadcolab">Cadastro de colaborador</p>
+            <p class="p- EPI">EPI e descarte</p>
+            <p class="p- cadEPI">Cadastro de EPI</p>
+            <p class="p- histórico">Histórico de EPI</p>
+            <p class="p- aviso">Alerta de vencimento</p>
+        </div>
+
+        <!-- Tela para buscar colaboradores -->
+        <div class="Container_main buscaColab">
+            <div class="container">
+                <div class="container_boxbuscaColab">
+                    <div class="lg">
+                        <h3 class="active log title">Colaboradores</h3>
+                    </div>
+                    <div class="form form_login">
+                        <form id="preventdefault">
+                            <label for="user">Nome do Colaborador</label>
+                            <input id="user" type="text" name="user" autocomplete="off">
+                            <label for="CPF">CPF</label>
+                            <input type="text" name="CPF" id="CPF">
+                            <label for="Number-cel">Número de Telefone</label>
+                            <input type="text" name="Number-Cel" id="Number-cel">
+                            <label for="ID">ID do Crachá</label>
+                            <input type="text" name="ID" id="ID">
+                            <label for="cargo">Cargo</label>
+                            <Input type="Text" name="cargo" id="cargo">
+                            <button onclick="adiciona()" class="btn">Cadastrar</button>
+                            <form />
+                            <p>Precisa de Ajuda?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Tela de cadastro de Colaborador -->
         <div class="Container_main mainColab">
             <div class="container">
                 <div class="container_box">
                     <div class="lg">
                         <h3 class="active log title">Cadastro do Colaborador</h3>
+                    </div>
+                    <div class="form form_login">
+                        <form id="preventdefault">
+                            <label for="user">Nome do Colaborador</label>
+                            <input id="user" type="text" name="user" autocomplete="off">
+                            <label for="CPF">CPF</label>
+                            <input type="text" name="CPF" id="CPF">
+                            <label for="Number-cel">Número de Telefone</label>
+                            <input type="text" name="Number-Cel" id="Number-cel">
+                            <label for="ID">ID do Crachá</label>
+                            <input type="text" name="ID" id="ID">
+                            <label for="cargo">Cargo</label>
+                            <Input type="Text" name="cargo" id="cargo">
+                            <button onclick="adiciona()" class="btn">Cadastrar</button>
+                            <form />
+                            <p>Precisa de Ajuda?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tela para buscar EPI -->
+        <div class="Container_main relacaoEPI">
+            <div class="container">
+                <div class="container_buscaEPI">
+                    <div class="lg">
+                        <h3 class="active log title">Busca de EPI</h3>
                     </div>
                     <div class="form form_login">
                         <form id="preventdefault">
@@ -70,7 +135,36 @@
                         <h3 class="active log title">Cadastro de EPI</h3>
                     </div>
                     <div class="form form_login">
-                        <form id="preventdefault2">
+                        <form id="preventdefault">
+                            <label for="EPI">Tipo de EPI</label>
+                            <input id="EPI" type="text" name="EPI" autocomplete="off">
+                            <label for="CA">Certificado de aprovação (CA)</label>
+                            <input type="text" name="CA" id="CA">
+                            <label for="NumberLote">Número do Lote</label>
+                            <input type="text" name="Number-Lote" id="Number-Lote">
+                            <label for="Fabricante">Fabricante</label>
+                            <input type="text" name="Fabricante" id="Fabricante">
+                            <label for="DataVal">Data de validade</label>
+                            <Input type="Text" name="DataVal" id="DataVal">
+                            <label for="DataEnter">Data de entrada</label>
+                            <Input type="Text" name="DataEnter" id="DataEnter">
+                            <button onclick="adiciona()" class="btn">Cadastrar</button>
+                            <form />
+                            <p>Precisa de Ajuda?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tela de notificação de EPI vencido -->
+        <div class="Container_main warningEPI">
+            <div class="container">
+                <div class="Container_boxAvisoEPI">
+                    <div class="lg">
+                        <h3 class="active log title">Cadastro de EPI</h3>
+                    </div>
+                    <div class="form form_login">
+                        <form id="preventdefault">
                             <label for="EPI">Tipo de EPI</label>
                             <input id="EPI" type="text" name="EPI" autocomplete="off">
                             <label for="CA">Certificado de aprovação (CA)</label>
@@ -98,6 +192,7 @@
             <p class="copyright">&copy; Copyright For EPI - 2022</p>
         </div>
     </footer> -->
+
 
     <script>
         feather.replace()
