@@ -4,7 +4,7 @@ var contador = 0;
 var objetos = new Array();
 var json = localStorage.getItem("colaborador");
 objetos = JSON.parse(json);
-// var contador = objetos.length;
+contador = objetos.length;
 
 //Definição de constantes para interação com a box de cadastro/busca
 const login = document.querySelector(".container_box");
@@ -166,7 +166,7 @@ envioAviso.addEventListener("click", function () {
   }
 });
 
-//Adiciona dados na localstorage
+//Adiciona dados do colaborador no localstorage
 function adiciona() {
   var x = new Object();
   x.user = document.getElementById("user").value;
@@ -177,6 +177,7 @@ function adiciona() {
   objetos[contador] = x;
   contador++;
   console.log(objetos);
+  alert("Colaborador Cadastrado");
   gravaDados();
   document.getElementById("user").value = "";
   document.getElementById("CPF").value = "";
@@ -186,7 +187,7 @@ function adiciona() {
   document.getElementById("user").focus();
 }
 
-//Grava dados no local storage
+//Grava dados do colaborador no local storage
 function gravaDados() {
   var json = JSON.stringify(objetos);
   localStorage.setItem("colaborador", json);
@@ -199,6 +200,40 @@ function buscaDados() {
   contador = objetos.length;
   console.log(objetos[0].nome);
 }
+
+//Adiciona dados do EPI no LocalStorage
+// function adicionaEPI() {
+//   var y = new Object();
+//   y.EPI = document.getElementById("EPI").value;
+//   y.CA = document.getElementById("CA").value;
+//   y.NumeroLote = document.getElementById("Number-Lote").value;
+//   y.Fabricante = document.getElementById("Fabricante").value;
+//   y.DataValidade = document.getElementById("DataVal").value;
+//   y.DataEntrada = document.getElementById("DataEnter").value;
+//   objetosEPI[contadorEPI] = y;
+//   contadorEPI++;
+//   gravaDadosEPI();
+//   document.getElementById("EPI").value = "";
+//   document.getElementById("CA").value = "";
+//   document.getElementById("Number-Lote").value = "";
+//   document.getElementById("Fabricante").value = "";
+//   document.getElementById("DataVal").value = "";
+//   document.getElementById("DataEnter").value = "";
+//   document.getElementById("EPI").focus();
+// }
+//Grava dados do EPI no LocalStorage
+// function gravaDadosEPI() {
+//   var jsonEPI = JSON.stringify(objetosEPI);
+//   localStorage.setItem("ListaEPI", jsonEPI);
+// }
+//BuscaDdos do EPI no loalStorage
+// function buscaDadosEPI() {
+//   //Busca os dados na local storage e armazena em um vetor de objetos
+//   var jsonEPI = localStorage.getItem("ListaEPI");
+//   objetosEPI = JSON.parse(jsonEPI);
+//   contadorEPI = objetosEPI.length;
+//   console.log(objetosEPI[0].nome);
+// }
 
 //Previne que o form não atualize a pagina após o envio do formulário.
 const form = document.getElementById("preventdefault");
@@ -222,7 +257,7 @@ buscaColab.addEventListener(
   false
 );
 cadastro.addEventListener(
-  "mouseenter",
+  "mouseover",
   function (event) {
     linhaVert.classList.toggle("teste");
     selecto[0].classList.toggle("show");
