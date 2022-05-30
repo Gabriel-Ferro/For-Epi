@@ -287,3 +287,10 @@ input[type="email"]:focus {
 .form_register {
   display: none;
 }
+
+#ButtonBuscaColab {
+  color: #00ff7f;
+  height: 450px;
+  width: 450px;
+  font-size: 1.4rem;
+}
