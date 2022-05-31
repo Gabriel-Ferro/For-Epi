@@ -46,6 +46,7 @@ body {
 }
 
 .circle{
+    background-color: #232424;
     border-radius: 50%;
     border: 2px solid #00FF7F;
     display: flex;
@@ -59,7 +60,7 @@ p {
     font-size: 2.0rem;
     text-align: center;
     margin-top: 4%;
-    color: #00FF7F;
+    color: #000000;
 }
 
 /* .linha-vertical {
@@ -94,7 +95,6 @@ p {
     height: 150px;
 }
 
-
 .container-botao{
     display: flex;
     justify-content: center;
@@ -110,5 +110,3 @@ p {
     font-size: 2rem;
     margin-top: 70px;
   }
-  
-
