@@ -255,6 +255,25 @@ h3:hover {
   width: 260px;
 }
 
+.searchEPI {
+  border: 2px solid #00ff7f;
+  border-radius: 15px;
+  height: 35px;
+  width: 320px;
+  margin-bottom: 40px;
+}
+
+#txtBuscaEPI {
+  float: left;
+  background-color: transparent;
+  padding-left: 10px;
+  font-style: italic;
+  font-size: 18px;
+  border: none;
+  height: 15px;
+  width: 260px;
+}
+
 label {
   font-weight: 500;
   font-size: 16px;
