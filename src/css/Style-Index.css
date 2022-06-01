@@ -231,6 +231,30 @@ h3:hover {
   transform: scale(1.02);
 }
 
+.buscaColab h3 {
+  font-size: 25px;
+  margin: 0px;
+}
+
+.searchColab {
+  border: 2px solid #00ff7f;
+  border-radius: 15px;
+  height: 35px;
+  width: 320px;
+  margin-bottom: 40px;
+}
+
+#txtBuscaColab {
+  float: left;
+  background-color: transparent;
+  padding-left: 10px;
+  font-style: italic;
+  font-size: 18px;
+  border: none;
+  height: 15px;
+  width: 260px;
+}
+
 label {
   font-weight: 500;
   font-size: 16px;
