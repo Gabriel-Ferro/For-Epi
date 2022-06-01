@@ -85,7 +85,13 @@ function buscaDadosEPI() {
   var jsonEPI = localStorage.getItem("ListaEPI");
   objetosEPI = JSON.parse(jsonEPI);
   contadorEPI = objetosEPI.length;
-  console.log(objetosEPI[0].nome);
+  console.log(objetosEPI[0].EPI);
+  var ButtonBuscaEPI = document.getElementById("ButtonBuscaEPI");
+  for (var q = 0; q < objetosEPI.length; q++) {
+    var liEPI = document.createElement("li");
+    liEPI.textContent = objetosEPI[q].EPI;
+    ButtonBuscaEPI.appendChild(liEPI);
+  }
 }
 
 //Definição de constantes para interação com a box de cadastro/busca
@@ -206,8 +212,8 @@ buscaEPI.addEventListener("click", function () {
     loginEPI.style.display = "none";
     login.style.display = "none";
     mainColab.style.display = "none";
-    mainAvisoEPI.style.display = "none";
-    relacaoVenc.style.display = "none";
+    // mainAvisoEPI.style.display = "none";
+    // relacaoVenc.style.display = "none";
     selecto[0].classList.toggle("show");
     selecto[1].classList.toggle("show");
     selecto[2].classList.toggle("show");
