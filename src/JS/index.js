@@ -123,8 +123,8 @@ cadastro.addEventListener("click", function () {
     mainEPI.style.display = "none";
     colab.style.display = "none";
     mainbuscaColab.style.display = "none";
-    // mainbuscaEPI.style.display = "none";
-    // relacaoEPI.style.display = "none";
+    mainbuscaEPI.style.display = "none";
+    relacaoEPI.style.display = "none";
     // mainAvisoEPI.style.display = "none";
     // relacaoVenc.style.display = "none";
     selecto[0].classList.toggle("show");
@@ -150,8 +150,8 @@ cadastroEPI.addEventListener("click", function () {
     mainColab.style.display = "none";
     colab.style.display = "none";
     mainbuscaColab.style.display = "none";
-    // mainbuscaEPI.style.display = "none";
-    // relacaoEPI.style.display = "none";
+    mainbuscaEPI.style.display = "none";
+    relacaoEPI.style.display = "none";
     // mainAvisoEPI.style.display = "none";
     // relacaoVenc.style.display = "none";
     selecto[0].classList.toggle("show");
@@ -177,8 +177,8 @@ buscaColab.addEventListener("click", function () {
     loginEPI.style.display = "none";
     login.style.display = "none";
     mainColab.style.display = "none";
-    // mainbuscaEPI.style.display = "none";
-    // relacaoEPI.style.display = "none";
+    mainbuscaEPI.style.display = "none";
+    relacaoEPI.style.display = "none";
     // mainAvisoEPI.style.display = "none";
     // relacaoVenc.style.display = "none";
     selecto[0].classList.toggle("show");
@@ -194,32 +194,32 @@ buscaColab.addEventListener("click", function () {
   }
 });
 
-//Ativa e desativa a box de relacaoEPI
-// buscaEPI.addEventListener("click", function () {
-//   buscaEPI.classList.toggle("active");
-//   if (buscaEPI.classList.contains("active")) {
-//     mainbuscaEPI.style.display = "block";
-//     relacaoEPI.style.display = "block";
-//     colab.style.display = "none";
-//     mainbuscaColab.style.display = "none";
-//     mainEPI.style.display = "none";
-//     loginEPI.style.display = "none";
-//     login.style.display = "none";
-//     mainColab.style.display = "none";
-//     mainAvisoEPI.style.display = "none";
-//     relacaoVenc.style.display = "none";
-//     selecto[0].classList.toggle("show");
-//     selecto[1].classList.toggle("show");
-//     selecto[2].classList.toggle("show");
-//     selecto[3].classList.toggle("show");
-//     selecto[4].classList.toggle("show");
-//     selecto[5].classList.toggle("show");
-//     linhaVert.classList.toggle("teste");
-//   } else {
-//     mainbuscaEPI.style.display = "none";
-//     relacaoEPI.style.display = "none";
-//   }
-// });
+// Ativa e desativa a box de relacaoEPI
+buscaEPI.addEventListener("click", function () {
+  buscaEPI.classList.toggle("active");
+  if (buscaEPI.classList.contains("active")) {
+    mainbuscaEPI.style.display = "block";
+    relacaoEPI.style.display = "block";
+    colab.style.display = "none";
+    mainbuscaColab.style.display = "none";
+    mainEPI.style.display = "none";
+    loginEPI.style.display = "none";
+    login.style.display = "none";
+    mainColab.style.display = "none";
+    mainAvisoEPI.style.display = "none";
+    relacaoVenc.style.display = "none";
+    selecto[0].classList.toggle("show");
+    selecto[1].classList.toggle("show");
+    selecto[2].classList.toggle("show");
+    selecto[3].classList.toggle("show");
+    selecto[4].classList.toggle("show");
+    selecto[5].classList.toggle("show");
+    linhaVert.classList.toggle("teste");
+  } else {
+    mainbuscaEPI.style.display = "none";
+    relacaoEPI.style.display = "none";
+  }
+});
 
 // //Ativa e desativa a box de alarme de EPI
 // envioAviso.addEventListener("click", function () {
