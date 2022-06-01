@@ -3,7 +3,7 @@ function changeBgColor(color) {
     register.style.background = color;
 }
 
-function changeBgColor(color) {
+function changeBgColor2(color) {
     const login = document.querySelector('.colaborador');
     login.style.background = color;
 } 
