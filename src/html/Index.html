@@ -34,7 +34,7 @@
             <i class="Icon cadastro" data-feather="user-check"></i>
             <i class="Icon buscaEPI" data-feather="trending-up"></i>
             <i class="Icon cadastroEPI" data-feather="check-square"></i>
-            <i class="Icon" data-feather="book-open"></i>
+            <i class="Icon entregaEPI" data-feather="book-open"></i>
             <i class="Icon alertaEPI" data-feather="alert-triangle"></i>
             <i class="Icon" data-feather="log-out"></i>
         </nav>
@@ -99,7 +99,7 @@
             <div class="container">
                 <div class="container_buscaEPI">
                     <div class="lg">
-                        <h3 class="active log title">Busca de EPI</h3>
+                        <h3 class="active log title buscaEPI">Busca de EPI</h3>
                     </div>
                     <div id="ButtonBuscaEPI">
                         <div class="searchEPI">
@@ -142,7 +142,30 @@
             </div>
         </div>
 
-        <!-- Tela de notificação de EPI vencido
+
+        <!-- Tela de entrega de EPI -->
+        <div class="Container_main mainEntreg">
+            <div class="container">
+                <div class="Container_BOXENTREG">
+                    <div class="lg">
+                        <h3 class="active log title">Entrega de EPI</h3>
+                    </div>
+                    <div>
+                        <p class="ESC">Escolha o colaborador:</p>
+                        <form action="/action_page.php">
+                            <label for="Entreg.Colab">Escolha o colaborador</label>
+                            <select name="cars" id="cars">
+                                <option value="Cristhyam">Cristhyam</option>
+                            </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Tela de notificação de EPI vencido
         <div class="Container_main warningEPI">
             <div class="container">
                 <div class="Container_boxAvisoEPI">
@@ -173,18 +196,18 @@
     </div> -->
 
 
-        <!-- <footer>
-        <div>
-            <p class="copyright">&copy; Copyright For EPI - 2022</p>
-        </div>
-    </footer> -->
+    <!-- <footer>
+            <div>
+                <p class="copyright">&copy; Copyright For EPI - 2022</p>
+            </div>
+        </footer> -->
 
 
-        <script>
-            feather.replace()
-        </script>
-        <script src="../JS/index.js"></script>
-        <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        feather.replace()
+    </script>
+    <script src="../JS/index.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
 </body>
 
 </html>

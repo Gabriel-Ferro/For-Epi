@@ -123,7 +123,6 @@ h4:hover {
 }
 
 footer {
-  margin-top: 80px;
   display: flex;
   background-color: #1f1f1f;
   width: 100%;
@@ -142,14 +141,6 @@ footer {
   height: 10px;
   width: 2700px;
 }
-
-/* .mainEPI {
-  display: none;
-}
-
-.mainColab {
-  display: none;
-} */
 
 .Container_main {
   margin-top: 80px;
@@ -213,6 +204,22 @@ footer {
   border-radius: 2px;
   padding: 40px;
 }
+
+.Container_BOXENTREG {
+  display: none;
+  background: #464646;
+  box-shadow: 0px 4px 4px #000000;
+  width: 400px;
+  height: 500px;
+  border-radius: 2px;
+  padding: 40px;
+}
+
+.ESC {
+  font-size: 20px;
+  color: #00ff7f;
+}
+
 .lg {
   display: flex;
   justify-content: first baseline;
@@ -232,6 +239,11 @@ h3:hover {
 }
 
 .buscaColab h3 {
+  font-size: 22px;
+  margin: 0px;
+}
+
+.buscaEPI h3 {
   font-size: 25px;
   margin: 0px;
 }
