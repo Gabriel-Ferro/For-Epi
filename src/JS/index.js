@@ -100,6 +100,30 @@ function buscaDadosEPI() {
   }
 }
 
+//Função para gerar os colaboradores no Option
+function buscaEntrega() {
+  var json = localStorage.getItem("colaborador");
+  objetos = JSON.parse(json);
+  contador = objetos.length;
+  console.log(objetos[0].user);
+  var BuscaEntregaColab = document.getElementById("Entrega");
+  for (var i = 0; i < objetos.length; i++) {
+    var li = document.createElement("option");
+    li.textContent = objetos[i].user;
+    BuscaEntregaColab.appendChild(li);
+  }
+  var jsonEPI = localStorage.getItem("ListaEPI");
+  objetosEPI = JSON.parse(jsonEPI);
+  contadorEPI = objetosEPI.length;
+  console.log(objetosEPI[0].EPI);
+  var BuscaEntregaEPI = document.getElementById("EntregaEPI");
+  for (var q = 0; q < objetosEPI.length; q++) {
+    var liEPI = document.createElement("option");
+    liEPI.textContent = objetosEPI[q].EPI;
+    BuscaEntregaEPI.appendChild(liEPI);
+  }
+}
+
 //Definição de constantes para interação com a box de cadastro/busca
 const login = document.querySelector(".container_box");
 const mainColab = document.querySelector(".mainColab");

@@ -34,7 +34,7 @@
             <i class="Icon cadastro" data-feather="user-check"></i>
             <i class="Icon buscaEPI" data-feather="trending-up"></i>
             <i class="Icon cadastroEPI" data-feather="check-square"></i>
-            <i class="Icon entregaEPI" data-feather="book-open"></i>
+            <i class="Icon entregaEPI" data-feather="book-open" onclick="buscaEntrega()"></i>
             <i class="Icon alertaEPI" data-feather="alert-triangle"></i>
             <i class="Icon" data-feather="log-out"></i>
         </nav>
@@ -152,15 +152,22 @@
                     </div>
                     <div>
                         <p class="ESC">Escolha o colaborador:</p>
-                        <form action="/action_page.php">
-                            <label for="Entreg.Colab">Escolha o colaborador</label>
-                            <select name="cars" id="cars">
-                                <option value="Cristhyam">Cristhyam</option>
-                            </select>
+
+                        <form>
+                            <label for="Entreg.Colab">Escolha o colaborador : </label>
+                            <select name="" id="Entrega"></select>
+                        </form>
+
+                        <form id="Entrega.ColabEPI">
+                            <label for="Entreg.ColabEPI">Escolha o EPI para o colaborador : </label>
+                            <select name="" id="EntregaEPI"></select>
+                        </form>
+
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
 
