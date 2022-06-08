@@ -1,135 +1,150 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700&display=swap");
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&family=Nuosu+SIL&display=swap");
+
+body {
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
 }
-body,
-html {
-  height: 100%;
-  font-family: "Montserrat", sans-serif;
-  background-color:#232423;
-  overflow: hidden;
-}
-.container {
+
+header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #232423;
-  height: 60vh;
+  gap: 600px;
+  background-color: whitesmoke;
+  border-color: black;
 }
 
-.container_box {
-  background: #464646;
-  box-shadow: 0px 4px 4px #000000;
-  max-width: 330px;
-  min-height: 350px;
-  border-radius: 2px;
-  padding: 40px;
-}
-.lg {
+.Cad_Login {
   display: flex;
-  justify-content: first baseline;
+  color: black;
   align-items: center;
-  color: rgb(0, 0, 0);
-  margin-bottom: 20px;
+  gap: 10px;
 }
 
-.lg h3 {
-  margin-right: 25px;
-  font-weight: 700;
-  cursor: pointer;
+.img-logo {
+  width: 90px;
+  height: 60px;
+  margin-bottom: 10px;
 }
 
-h3:hover {
-  transform: scale(1.02);
+.decoration1 {
+  width: 25px;
+  height: 25px;
+  background-color: #71db6f;
+  display: inline-block;
+  position: absolute;
+  left: -5px;
+  bottom: 2px;
+  z-index: -1;
+  border-radius: 5px;
 }
 
-label {
-  font-weight: 500;
-  font-size: 14px;
-  color: #000000;
+.decoration2 {
+  width: 60px;
+  height: 10px;
+  background-color: #71db6f;
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  bottom: -5px;
+  z-index: -1;
+  border-radius: 5px;
 }
-input[type="text"],
-input[type="password"],
-input[type="email"] {
-  width: 100%;
-  padding: 6px;
-  margin: 5px 0 22px 0;
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  max-width: 100%;
+}
+
+.L_C {
+  font-size: 20px;
+}
+
+h1 {
+  margin-top: 114px;
+  font-size: 50px;
+  font-family: "Nuosu SIL", serif;
+  position: relative;
+}
+
+p {
+  font-size: 25px;
+  margin: 10px;
+}
+
+h2 {
+  margin-top: 50px;
+  font-family: "Nuosu SIL", serif;
+  font-size: 35px;
+  margin-left: 5px;
+  position: relative;
+}
+
+.input_user {
+  width: 400px;
+  height: 35px;
+  border-radius: 6px;
+  margin-left: 8px;
+  background-color: #71db6f;
+  opacity: 40%;
   border: none;
-  border-bottom: 1px solid rgb(5, 5, 5);
-  background: transparent;
-  outline: none;
-}
-input[type="text"]:focus,
-input[type="password"]:focus,
-input[type="email"]:focus {
-  border-bottom: 1px solid #00FF7F;
-  color: rgb(252, 252, 252);
+  color: black;
 }
 
-.btn {
-  background-color: #00FF7F;
-  color: rgb(0, 0, 0);
-  padding: 8px 10px;
+.forget {
+  color: black;
+}
+
+.input_senha {
+  width: 400px;
+  height: 35px;
+  border-radius: 6px;
+  margin-left: 8px;
+  background-color: #71db6f;
+  opacity: 40%;
   border: none;
-  cursor: pointer;
-  width: 130px;
-  opacity: 0.9;
-  margin: 10px 40px;
-}
-.btn:hover {
-  opacity: 1;
-}
-.form p {
-  margin-top: 40px;
-  font-weight: 600;
-  font-size: 14px;
-  color: #000000;
-}
-.form_register {
-  display: none;
+  color: black;
 }
 
-.logo {
-    margin-top: 70px;
-    background-color: #232423;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: none;
+.button_enter {
+  width: 120px;
+  height: 39px;
+  border-radius: 8px;
+  margin-left: 8px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #71db6f;
+  font-size: 20px;
+  border: none;
 }
 
-.logo2{
-    width: 200px;
-    height: 150px;
-    background-color: none;
+.href {
+  text-decoration: none;
+  color: black;
 }
 
-ul{
-    float: right;
-    list-style-type: none;
-    margin-top: 5px;
-  }
-    
-  ul li{
-    display: inline-block;
-  }
-     
-  ul li a{
-    text-decoration: none;
-    color: #fff;
-    padding: 5px 20px;
-    border: 1px solid transparent;
-    transition: 0.6s ease;
-  }
-    
-  ul li a:hover{
-    background-color: #fff;
-    color: #000;
-  }
-  
-  ul li.active a{
-    background-color: #fff;
-    color: #000;
-  }
+.img_central {
+  max-width: 100%;
+}
+
+.img_footer {
+  width: 90px;
+  height: 60px;
+  margin-bottom: 10px;
+  margin-top: -20px;
+}
+
+.main_box {
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #71db6f;
+  height: 150px;
+}

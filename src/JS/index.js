@@ -117,10 +117,12 @@ function buscaEntrega() {
   contadorEPI = objetosEPI.length;
   console.log(objetosEPI[0].EPI);
   var BuscaEntregaEPI = document.getElementById("EntregaEPI");
+  var input = "<input type='checkbox'>";
   for (var q = 0; q < objetosEPI.length; q++) {
-    var liEPI = document.createElement("option");
-    liEPI.textContent = objetosEPI[q].EPI;
-    BuscaEntregaEPI.appendChild(liEPI);
+    var liEPI = document.createElement("li");
+    liEPI.innerHTML = input + objetosEPI[q].EPI;
+    var Teste123 = document.getElementById("teste123");
+    Teste123.appendChild(liEPI);
   }
 }
 
