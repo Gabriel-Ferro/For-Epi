@@ -4,8 +4,14 @@ var contador = 0;
 var contadorEPI = 0;
 var objetos = new Array();
 var objetosEPI = new Array();
-var json = localStorage.getItem("colaborador") || [];
-var jsonEPI = localStorage.getItem("ListaEPI") || [];
+var json = localStorage.getItem("colaborador");
+if (json == null) { 
+  json = "[]";
+} 
+var jsonEPI = localStorage.getItem("ListaEPI");
+if (jsonEPI == null) { 
+  jsonEPI = "[]";
+} 
 objetos = JSON.parse(json);
 objetosEPI = JSON.parse(jsonEPI);
 contador = objetos.length;
