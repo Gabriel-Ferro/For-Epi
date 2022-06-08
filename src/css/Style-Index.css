@@ -68,7 +68,8 @@ h4:hover {
 }
 
 .nomeIcon {
-  margin-top: 13px;
+  margin-top: 5px;
+  gap: 25px;
   display: flex;
   flex-direction: column;
 }

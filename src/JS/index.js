@@ -5,15 +5,6 @@ var contadorEPI = 0;
 var objetos = new Array();
 var objetosEPI = new Array();
 var json = localStorage.getItem("colaborador");
-<<<<<<< HEAD
-if (json == null) { 
-  json = "[]";
-} 
-var jsonEPI = localStorage.getItem("ListaEPI");
-if (jsonEPI == null) { 
-  jsonEPI = "[]";
-} 
-=======
 if (json == null) {
   json = "[]";
 }
@@ -21,7 +12,6 @@ var jsonEPI = localStorage.getItem("ListaEPI");
 if (jsonEPI == null) {
   jsonEPI = "[]";
 }
->>>>>>> c638605ee60c0cba88833b2bb73791e67af946fa
 objetos = JSON.parse(json);
 objetosEPI = JSON.parse(jsonEPI);
 contador = objetos.length;
