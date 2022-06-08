@@ -8,50 +8,52 @@
   <title>Tela de Login</title>
   <link rel="shortcut icon" href="C:\Users\Pichau\Pictures\DNS\Programação\pmv-sint-2022-1-e1-proj-web-t1-grupo-08\src\Assets\img\LOGO_EPI.png" type="img/x-png" />
   <link rel="stylesheet" href="../css/Style-TelaLogin.css">
+  <script src="https://unpkg.com/feather-icons"></script>
 </head>
 
 <body>
-    <header>
-          <ul>
-              <li class="active"> <a href=""> Você está na área do administrador </a> </li>
-              <li> <a href=""> O que somos?</a> </li>
-          </ul>
-    </header>
-  <div class="logo">
-        <img class = "logo2" src="C:\Users\Pichau\Pictures\DNS\Programação\pmv-sint-2022-1-e1-proj-web-t1-grupo-08\src\Assets\img\LOGO_EPI.png" alt="Logo FOR EPI"> 
-  </div>  
-  <div class="container">
-    <div class="container_box">
-      <div class="lg">
-        <h3 class="active log title">Login</h3>
-        <h3 class="reg title">Register</h3>
-      </div>
-      <div class="form form_login">
-        <form>
-          <label for="user">Username</label>
-          <input id="user" type="text" name="user" autocomplete="off">
-          <label for="password">Password</label>
-          <input type="password" name="password" id="password">
-          <a href="../html/Index.html">
-            <input type="submit" name="Login" class="btn" value="Login"/>
-          </a>
-        </form>
-        <p>Forgot password?</p>
-      </div>
-
-      <div class="form form_register">
-        <label for="mail">Email</label>
-        <input type="email" name="mail" id="mail">
-        <label for="username">Username</label>
-        <input type="text" name="username" id="username" autocomplete="off">
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password">
-        <input type="submit" class="btn" value="Register">
-      </div>
-
+  <header>
+    <img src="../Assets/img/logo3.png" alt="Logo da For EPI" class="img-logo">
+    <div class="Cad_Login">
+      <p class="L_C">Login/Criar</p>
+      <i class="Icon-login" data-feather="user"></i>
     </div>
-  </div>
+  </header>
+
+  <main>
+    <img src="../Assets/img/male-worker-with-bulldozer-in-sand-quarry.jpg" alt="" class="img_central">
+    <div class="main_box">
+      <h1>Login
+        <span class="decoration1"></span>
+      </h1>
+      <p>Usuario</p>
+      <input type="text" class="input_user">
+      <p>Senha</p>
+      <input type="password" class="input_senha"> <br>
+      <a href="./Index.html" class="href">
+        <button class="button_enter">Entrar</a></button>
+      </a>
+      <a href="" class="forget">
+        <p>Perdeu a senha?</p>
+      </a>
+      <h2>Cadastre-se
+        <span class="decoration2"></span>
+      </h2>
+      <p class="style_id1">Ainda não possui conta? Cadastre-se no site</p>
+      <button class="button_enter">Cadastro</button>
+    </div>
+  </main>
+
+  <footer>
+    <img src="../Assets/img/logo3.png" alt="" class="img_footer">
+    FOR EPI. Alguns Direitos Reservados
+  </footer>
+
   <script src="../JS/script-TelaLogin.js"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script>
+    feather.replace()
+  </script>
 </body>
 
 </html>
