@@ -209,13 +209,29 @@ footer {
   display: none;
   background: #464646;
   box-shadow: 0px 4px 4px #000000;
-  width: 400px;
+  width: 320px;
   height: 500px;
   border-radius: 2px;
   padding: 40px;
 }
 
+.Atribuir_EPI {
+  display: flex;
+  align-items: center;
+  height: 500px;
+}
+#teste12 {
+  display: flex;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+#teste123 {
+  margin: 0px;
+}
+
 .ESC {
+  margin-top: 0px;
   font-size: 20px;
   color: #00ff7f;
 }
@@ -351,6 +367,7 @@ ul {
   list-style-type: none;
   margin-top: 5px;
   margin-bottom: 50px;
+  padding: 0px;
 }
 
 ul li {
