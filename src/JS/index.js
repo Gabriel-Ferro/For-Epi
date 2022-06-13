@@ -105,7 +105,6 @@ function buscaEntrega() {
   var json = localStorage.getItem("colaborador");
   objetos = JSON.parse(json);
   contador = objetos.length;
-  console.log(objetos[0].user);
   var BuscaEntregaColab = document.getElementById("Entrega");
   for (var i = 0; i < objetos.length; i++) {
     var li = document.createElement("option");
@@ -115,17 +114,87 @@ function buscaEntrega() {
   var jsonEPI = localStorage.getItem("ListaEPI");
   objetosEPI = JSON.parse(jsonEPI);
   contadorEPI = objetosEPI.length;
-  console.log(objetosEPI[0].EPI);
   var BuscaEntregaEPI = document.getElementById("EntregaEPI");
-  var input = "<input type='checkbox'>";
   for (var q = 0; q < objetosEPI.length; q++) {
-    var liEPI = document.createElement("li");
-    liEPI.innerHTML = input + objetosEPI[q].EPI;
-    var Teste123 = document.getElementById("teste123");
-    Teste123.appendChild(liEPI);
+    var liEPI = document.createElement("option");
+    liEPI.textContent = objetosEPI[q].EPI;
+    console.log(liEPI);
+    BuscaEntregaEPI.appendChild(liEPI);
   }
 }
 
+//Atribuir EPI ao Colaborador
+var contadorEntrega = 0;
+var objetosEntrega = new Array();
+var jsonEntrega = localStorage.getItem("EntregasEpi");
+if (jsonEntrega == null) {
+  jsonEntrega = "[]";
+}
+objetosEntrega = JSON.parse(jsonEntrega);
+contadorEntrega = objetosEntrega.length;
+const b_addEpi = document.querySelector(".Atribuir_EPI");
+let listaEpis = [];
+function addEPI() {
+  // var jsonEntrega2 = localStorage.getItem("EntregasEpi");
+  // objetosEntrega2 = JSON.parse(jsonEntrega2);
+  // console.log("aqui " + objetosEntrega2[0].nome);
+  var colab_name = document.getElementById("Entrega").value;
+  console.log(colab_name);
+  var epi_name = document.getElementById("EntregaEPI").value;
+
+  let vals = localStorage.getItem("EntregasEpi").split(",");
+  objval = JSON.parse(vals);
+  console.log(objval);
+
+  // listaEpis.push(epi_name);
+  // var z = new Object();
+  // z.nome = colab_name;
+  // z.itens = listaEpis;
+  // console.log(z);
+  // objetosEntrega[contadorEntrega] = z;
+  // contadorEntrega++;
+  // var jsonEntrega = JSON.stringify(objetosEntrega);
+  // localStorage.setItem("EntregasEpi", jsonEntrega);
+
+  // if (objetosEntrega2[0].nome == colab_name) {
+  //   objval[0].itens = listaEpis.push(epi_name);
+  listaEpis.push(epi_name);
+  var z = new Object();
+  z.nome = colab_name;
+  z.itens = listaEpis;
+  console.log(z);
+  objetosEntrega[contadorEntrega] = z;
+  contadorEntrega++;
+  var jsonEntrega = JSON.stringify(objetosEntrega);
+  localStorage.setItem("EntregasEpi", jsonEntrega);
+  // }
+}
+relatorio = document.querySelector(".relatorio");
+var objT = new Array();
+var cont = 0;
+var jsonT = localStorage.getItem("EntregasEpi");
+if (jsonT == null) {
+  jsonT = [];
+}
+objT = JSON.parse(jsonT);
+cont = objT.length;
+function tabelaInner() {
+  var html = "";
+  html = html + "  <tr> <th>Nome</th> <th>Itens</th> </tr>";
+  for (var i = 0; i < objT.length; i++) {
+    console.log(objT[i].nome);
+    html = html + "<tr>";
+    html = html + "<td> " + objT[i].nome + "</td>";
+    html = html + "<td> ";
+    for (var j = 0; j < objT[i].itens.length; j++) {
+      console.log(objT[i].itens[j]);
+      html = html + objT[i].itens[j] + ", ";
+    }
+    html = html + "</td>";
+    html = html + "</tr>";
+  }
+  document.getElementById("corpoTabela").innerHTML = html;
+}
 //Definição de constantes para interação com a box de cadastro/busca
 const login = document.querySelector(".container_box");
 const mainColab = document.querySelector(".mainColab");

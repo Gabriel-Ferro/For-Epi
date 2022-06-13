@@ -393,3 +393,10 @@ ul li.active a {
   background-color: #fff;
   color: #000;
 }
+
+.relatorio {
+  margin-top: 20px;
+  width: 300px;
+  height: 250px;
+  background-color: white;
+}
