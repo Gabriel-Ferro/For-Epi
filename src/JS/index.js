@@ -49,13 +49,24 @@ function buscaDados() {
   var json = localStorage.getItem("colaborador");
   objetos = JSON.parse(json);
   contador = objetos.length;
-  console.log(objetos[0].user);
   var ButtonBuscaColab = document.getElementById("ButtonBuscaColab");
+  var html = "";
+  html =
+    html +
+    "<tr> <th>Nome</th> <th>CPF</th> <th>Telefone</th> <th>ID</th> <th>Cargo</th>    </tr>";
   for (var i = 0; i < objetos.length; i++) {
-    var li = document.createElement("li");
+    html = html + "<tr>";
+    html = html + "<td>" + objetos[i].user + "</td>";
+    html = html + "<td>" + objetos[i].cpf + "</td>";
+    html = html + "<td>" + objetos[i].celnumber + "</td>";
+    html = html + "<td>" + objetos[i].cracha + "</td>";
+    html = html + "<td>" + objetos[i].cargo + "</td>";
+    html = html + "</tr>";
+    /*var li = document.createElement("li");
     li.textContent = objetos[i].user;
-    ButtonBuscaColab.appendChild(li);
+    ButtonBuscaColab.appendChild(li);*/
   }
+  document.getElementById("TabelaColab").innerHTML = html;
 }
 
 // Adiciona dados do EPI no LocalStorage
@@ -91,13 +102,26 @@ function buscaDadosEPI() {
   var jsonEPI = localStorage.getItem("ListaEPI");
   objetosEPI = JSON.parse(jsonEPI);
   contadorEPI = objetosEPI.length;
-  console.log(objetosEPI[0].EPI);
+  var html = "";
+  html =
+    html +
+    "<tr> <th>EPI</th> <th>CA</th> <th>NumeroLote</th> <th>Fabricante</th> <th>DataValidade</th> <th>DataEntrada</th>   </tr>";
   var ButtonBuscaEPI = document.getElementById("ButtonBuscaEPI");
   for (var q = 0; q < objetosEPI.length; q++) {
+    html = html + "<tr>";
+    html = html + "<td>" + objetosEPI[q].EPI + "</td>";
+    html = html + "<td>" + objetosEPI[q].CA + "</td>";
+    html = html + "<td>" + objetosEPI[q].NumeroLote + "</td>";
+    html = html + "<td>" + objetosEPI[q].Fabricante + "</td>";
+    html = html + "<td>" + objetosEPI[q].DataValidade + "</td>";
+    html = html + "<td>" + objetosEPI[q].DataEntrada + "</td>";
+    html = html + "</tr>";
+    /*
     var liEPI = document.createElement("li");
     liEPI.textContent = objetosEPI[q].EPI;
-    ButtonBuscaEPI.appendChild(liEPI);
+    ButtonBuscaEPI.appendChild(liEPI);*/
   }
+  document.getElementById("TabelaEpi").innerHTML = html;
 }
 
 //Função para gerar os colaboradores no Option
@@ -126,6 +150,7 @@ function buscaEntrega() {
 //Atribuir EPI ao Colaborador
 var contadorEntrega = 0;
 var objetosEntrega = new Array();
+var objetosEntrega2 = new Array();
 var jsonEntrega = localStorage.getItem("EntregasEpi");
 if (jsonEntrega == null) {
   jsonEntrega = "[]";
@@ -135,31 +160,15 @@ contadorEntrega = objetosEntrega.length;
 const b_addEpi = document.querySelector(".Atribuir_EPI");
 let listaEpis = [];
 function addEPI() {
-  // var jsonEntrega2 = localStorage.getItem("EntregasEpi");
-  // objetosEntrega2 = JSON.parse(jsonEntrega2);
-  // console.log("aqui " + objetosEntrega2[0].nome);
   var colab_name = document.getElementById("Entrega").value;
-  console.log(colab_name);
   var epi_name = document.getElementById("EntregaEPI").value;
 
-  let vals = localStorage.getItem("EntregasEpi").split(",");
-  objval = JSON.parse(vals);
-  console.log(objval);
+  /*   let vals = localStorage.getItem("EntregasEpi").split(",");
+    objval = JSON.parse(vals);
+    console.log(objval); */
 
-  // listaEpis.push(epi_name);
-  // var z = new Object();
-  // z.nome = colab_name;
-  // z.itens = listaEpis;
-  // console.log(z);
-  // objetosEntrega[contadorEntrega] = z;
-  // contadorEntrega++;
-  // var jsonEntrega = JSON.stringify(objetosEntrega);
-  // localStorage.setItem("EntregasEpi", jsonEntrega);
-
-  // if (objetosEntrega2[0].nome == colab_name) {
-  //   objval[0].itens = listaEpis.push(epi_name);
-  listaEpis.push(epi_name);
   var z = new Object();
+  listaEpis.push(epi_name);
   z.nome = colab_name;
   z.itens = listaEpis;
   console.log(z);
@@ -167,9 +176,9 @@ function addEPI() {
   contadorEntrega++;
   var jsonEntrega = JSON.stringify(objetosEntrega);
   localStorage.setItem("EntregasEpi", jsonEntrega);
-  // }
+  listaEpis = [];
 }
-relatorio = document.querySelector(".relatorio");
+
 var objT = new Array();
 var cont = 0;
 var jsonT = localStorage.getItem("EntregasEpi");
@@ -178,6 +187,7 @@ if (jsonT == null) {
 }
 objT = JSON.parse(jsonT);
 cont = objT.length;
+
 function tabelaInner() {
   var html = "";
   html = html + "  <tr> <th>Nome</th> <th>Itens</th> </tr>";
@@ -209,11 +219,11 @@ const mainAvisoEPI = document.querySelector(".warningEPI");
 const BoxentregEPI = document.querySelector(".Container_BOXENTREG");
 const mainEntregEPI = document.querySelector(".mainEntreg");
 
-// //Definição de constantes para animação da navBar
-// const iconCadastro = document.querySelector(".cadcolab");
-// const iconColab = document.querySelector(".colab");
-// const linhaVert = document.querySelector(".linha-vertical");
-// const selecto = document.getElementsByClassName("p-");
+//Definição de constantes para animação da navBar
+const iconCadastro = document.querySelector(".cadcolab");
+const iconColab = document.querySelector(".colab");
+const linhaVert = document.querySelector(".linha-vertical");
+const selecto = document.getElementsByClassName("p-");
 
 //Definição de constante para interação com os icones da navBar
 const cadastro = document.querySelector(".cadastro");
@@ -237,8 +247,6 @@ cadastro.addEventListener("click", function () {
     relacaoEPI.style.display = "none";
     BoxentregEPI.style.display = "none";
     mainEntregEPI.style.display = "none";
-    // mainAvisoEPI.style.display = "none";
-    // relacaoVenc.style.display = "none";
     selecto[0].classList.toggle("show");
     selecto[1].classList.toggle("show");
     selecto[2].classList.toggle("show");
@@ -266,8 +274,6 @@ cadastroEPI.addEventListener("click", function () {
     relacaoEPI.style.display = "none";
     BoxentregEPI.style.display = "none";
     mainEntregEPI.style.display = "none";
-    // mainAvisoEPI.style.display = "none";
-    // relacaoVenc.style.display = "none";
     selecto[0].classList.toggle("show");
     selecto[1].classList.toggle("show");
     selecto[2].classList.toggle("show");
@@ -368,6 +374,35 @@ entregEPI.addEventListener("click", function () {
   }
 });
 
+// //Ativa e desativa a box de alarme de EPI
+// envioAviso.addEventListener("click", function () {
+//   envioAviso.classList.toggle("active");
+//   if (envioAviso.classList.contains("active")) {
+//     mainAvisoEPI.style.display = "block";
+//     relacaoVenc.style.display = "block";
+//     mainColab.style.display = "none";
+//     login.style.display = "none";
+//     loginEPI.style.display = "none";
+//     mainEPI.style.display = "none";
+//     colab.style.display = "none";
+//     mainbuscaColab.style.display = "none";
+//     mainbuscaEPI.style.display = "none";
+//     relacaoEPI.style.display = "none";
+//     BoxentregEPI.style.display = "none";
+//     mainEntregEPI.style.display = "none";
+//     selecto[0].classList.toggle("show");
+//     selecto[1].classList.toggle("show");
+//     selecto[2].classList.toggle("show");
+//     selecto[3].classList.toggle("show");
+//     selecto[4].classList.toggle("show");
+//     selecto[5].classList.toggle("show");
+//     linhaVert.classList.toggle("teste");
+//   } else {
+//     mainAvisoEPI.style.display = "none";
+//     relacaoVenc.style.display = "none";
+//   }
+// });
+
 //Previne que o form não atualize a pagina após o envio do formulário.
 const form = document.getElementById("preventdefault");
 form.addEventListener("submit", (e) => {
@@ -380,3 +415,70 @@ form2.addEventListener("submit", (e) => {
   e.preventDefault();
   console.log("Deu certo");
 });
+
+//Função para criar animação da sidebar
+// buscaColab.addEventListener(
+//   "mouseenter",
+//   function (event) {
+//     selecto[0].classList.toggle("show");
+//     selecto[1].classList.toggle("show");
+//     selecto[2].classList.toggle("show");
+//     selecto[3].classList.toggle("show");
+//     selecto[4].classList.toggle("show");
+//     selecto[5].classList.toggle("show");
+//     linhaVert.classList.toggle("teste");
+//   },
+//   false
+// );
+// cadastro.addEventListener(
+//   "mouseover",
+//   function (event) {
+//     linhaVert.classList.toggle("teste");
+//     selecto[0].classList.toggle("show");
+//     selecto[1].classList.toggle("show");
+//     selecto[2].classList.toggle("show");
+//     selecto[3].classList.toggle("show");
+//     selecto[4].classList.toggle("show");
+//     selecto[5].classList.toggle("show");
+//   },
+//   false
+// );
+// cadastroEPI.addEventListener(
+//   "mouseenter",
+//   function (event) {
+//     linhaVert.classList.toggle("teste");
+//     selecto[0].classList.toggle("show");
+//     selecto[1].classList.toggle("show");
+//     selecto[2].classList.toggle("show");
+//     selecto[3].classList.toggle("show");
+//     selecto[4].classList.toggle("show");
+//     selecto[5].classList.toggle("show");
+//   },
+//   false
+// );
+// buscaEPI.addEventListener(
+//   "mouseenter",
+//   function (event) {
+//     linhaVert.classList.toggle("teste");
+//     selecto[0].classList.toggle("show");
+//     selecto[1].classList.toggle("show");
+//     selecto[2].classList.toggle("show");
+//     selecto[3].classList.toggle("show");
+//     selecto[4].classList.toggle("show");
+//     selecto[5].classList.toggle("show");
+//   },
+//   false
+// );
+// envioAviso.addEventListener(
+//   "mouseenter",
+//   function (event) {
+//     linhaVert.classList.toggle("teste");
+//     selecto[0].classList.toggle("show");
+//     selecto[1].classList.toggle("show");
+//     selecto[2].classList.toggle("show");
+//     selecto[3].classList.toggle("show");
+//     selecto[4].classList.toggle("show");
+//     selecto[5].classList.toggle("show");
+//   },
+//   false
+// );
