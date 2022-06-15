@@ -209,11 +209,11 @@ const mainAvisoEPI = document.querySelector(".warningEPI");
 const BoxentregEPI = document.querySelector(".Container_BOXENTREG");
 const mainEntregEPI = document.querySelector(".mainEntreg");
 
-//Definição de constantes para animação da navBar
-const iconCadastro = document.querySelector(".cadcolab");
-const iconColab = document.querySelector(".colab");
-const linhaVert = document.querySelector(".linha-vertical");
-const selecto = document.getElementsByClassName("p-");
+// //Definição de constantes para animação da navBar
+// const iconCadastro = document.querySelector(".cadcolab");
+// const iconColab = document.querySelector(".colab");
+// const linhaVert = document.querySelector(".linha-vertical");
+// const selecto = document.getElementsByClassName("p-");
 
 //Definição de constante para interação com os icones da navBar
 const cadastro = document.querySelector(".cadastro");
@@ -368,35 +368,6 @@ entregEPI.addEventListener("click", function () {
   }
 });
 
-// //Ativa e desativa a box de alarme de EPI
-// envioAviso.addEventListener("click", function () {
-//   envioAviso.classList.toggle("active");
-//   if (envioAviso.classList.contains("active")) {
-//     mainAvisoEPI.style.display = "block";
-//     relacaoVenc.style.display = "block";
-//     mainColab.style.display = "none";
-//     login.style.display = "none";
-//     loginEPI.style.display = "none";
-//     mainEPI.style.display = "none";
-//     colab.style.display = "none";
-//     mainbuscaColab.style.display = "none";
-//     mainbuscaEPI.style.display = "none";
-//     relacaoEPI.style.display = "none";
-//     BoxentregEPI.style.display = "none";
-//     mainEntregEPI.style.display = "none";
-//     selecto[0].classList.toggle("show");
-//     selecto[1].classList.toggle("show");
-//     selecto[2].classList.toggle("show");
-//     selecto[3].classList.toggle("show");
-//     selecto[4].classList.toggle("show");
-//     selecto[5].classList.toggle("show");
-//     linhaVert.classList.toggle("teste");
-//   } else {
-//     mainAvisoEPI.style.display = "none";
-//     relacaoVenc.style.display = "none";
-//   }
-// });
-
 //Previne que o form não atualize a pagina após o envio do formulário.
 const form = document.getElementById("preventdefault");
 form.addEventListener("submit", (e) => {
@@ -409,70 +380,3 @@ form2.addEventListener("submit", (e) => {
   e.preventDefault();
   console.log("Deu certo");
 });
-
-//Função para criar animação da sidebar
-// buscaColab.addEventListener(
-//   "mouseenter",
-//   function (event) {
-//     selecto[0].classList.toggle("show");
-//     selecto[1].classList.toggle("show");
-//     selecto[2].classList.toggle("show");
-//     selecto[3].classList.toggle("show");
-//     selecto[4].classList.toggle("show");
-//     selecto[5].classList.toggle("show");
-//     linhaVert.classList.toggle("teste");
-//   },
-//   false
-// );
-// cadastro.addEventListener(
-//   "mouseover",
-//   function (event) {
-//     linhaVert.classList.toggle("teste");
-//     selecto[0].classList.toggle("show");
-//     selecto[1].classList.toggle("show");
-//     selecto[2].classList.toggle("show");
-//     selecto[3].classList.toggle("show");
-//     selecto[4].classList.toggle("show");
-//     selecto[5].classList.toggle("show");
-//   },
-//   false
-// );
-// cadastroEPI.addEventListener(
-//   "mouseenter",
-//   function (event) {
-//     linhaVert.classList.toggle("teste");
-//     selecto[0].classList.toggle("show");
-//     selecto[1].classList.toggle("show");
-//     selecto[2].classList.toggle("show");
-//     selecto[3].classList.toggle("show");
-//     selecto[4].classList.toggle("show");
-//     selecto[5].classList.toggle("show");
-//   },
-//   false
-// );
-// buscaEPI.addEventListener(
-//   "mouseenter",
-//   function (event) {
-//     linhaVert.classList.toggle("teste");
-//     selecto[0].classList.toggle("show");
-//     selecto[1].classList.toggle("show");
-//     selecto[2].classList.toggle("show");
-//     selecto[3].classList.toggle("show");
-//     selecto[4].classList.toggle("show");
-//     selecto[5].classList.toggle("show");
-//   },
-//   false
-// );
-// envioAviso.addEventListener(
-//   "mouseenter",
-//   function (event) {
-//     linhaVert.classList.toggle("teste");
-//     selecto[0].classList.toggle("show");
-//     selecto[1].classList.toggle("show");
-//     selecto[2].classList.toggle("show");
-//     selecto[3].classList.toggle("show");
-//     selecto[4].classList.toggle("show");
-//     selecto[5].classList.toggle("show");
-//   },
-//   false
-// );
