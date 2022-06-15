@@ -62,9 +62,6 @@ function buscaDados() {
     html = html + "<td>" + objetos[i].cracha + "</td>";
     html = html + "<td>" + objetos[i].cargo + "</td>";
     html = html + "</tr>";
-    /*var li = document.createElement("li");
-    li.textContent = objetos[i].user;
-    ButtonBuscaColab.appendChild(li);*/
   }
   document.getElementById("TabelaColab").innerHTML = html;
 }
@@ -116,10 +113,6 @@ function buscaDadosEPI() {
     html = html + "<td>" + objetosEPI[q].DataValidade + "</td>";
     html = html + "<td>" + objetosEPI[q].DataEntrada + "</td>";
     html = html + "</tr>";
-    /*
-    var liEPI = document.createElement("li");
-    liEPI.textContent = objetosEPI[q].EPI;
-    ButtonBuscaEPI.appendChild(liEPI);*/
   }
   document.getElementById("TabelaEpi").innerHTML = html;
 }
@@ -162,10 +155,6 @@ let listaEpis = [];
 function addEPI() {
   var colab_name = document.getElementById("Entrega").value;
   var epi_name = document.getElementById("EntregaEPI").value;
-
-  /*   let vals = localStorage.getItem("EntregasEpi").split(",");
-    objval = JSON.parse(vals);
-    console.log(objval); */
 
   var z = new Object();
   listaEpis.push(epi_name);
@@ -301,8 +290,6 @@ buscaColab.addEventListener("click", function () {
     relacaoEPI.style.display = "none";
     BoxentregEPI.style.display = "none";
     mainEntregEPI.style.display = "none";
-    // mainAvisoEPI.style.display = "none";
-    // relacaoVenc.style.display = "none";
     selecto[0].classList.toggle("show");
     selecto[1].classList.toggle("show");
     selecto[2].classList.toggle("show");
@@ -330,8 +317,6 @@ buscaEPI.addEventListener("click", function () {
     mainColab.style.display = "none";
     BoxentregEPI.style.display = "none";
     mainEntregEPI.style.display = "none";
-    // mainAvisoEPI.style.display = "none";
-    // relacaoVenc.style.display = "none";
     selecto[0].classList.toggle("show");
     selecto[1].classList.toggle("show");
     selecto[2].classList.toggle("show");
@@ -359,8 +344,6 @@ entregEPI.addEventListener("click", function () {
     loginEPI.style.display = "none";
     login.style.display = "none";
     mainColab.style.display = "none";
-    // mainAvisoEPI.style.display = "none";
-    // relacaoVenc.style.display = "none";
     selecto[0].classList.toggle("show");
     selecto[1].classList.toggle("show");
     selecto[2].classList.toggle("show");
@@ -374,35 +357,6 @@ entregEPI.addEventListener("click", function () {
   }
 });
 
-// //Ativa e desativa a box de alarme de EPI
-// envioAviso.addEventListener("click", function () {
-//   envioAviso.classList.toggle("active");
-//   if (envioAviso.classList.contains("active")) {
-//     mainAvisoEPI.style.display = "block";
-//     relacaoVenc.style.display = "block";
-//     mainColab.style.display = "none";
-//     login.style.display = "none";
-//     loginEPI.style.display = "none";
-//     mainEPI.style.display = "none";
-//     colab.style.display = "none";
-//     mainbuscaColab.style.display = "none";
-//     mainbuscaEPI.style.display = "none";
-//     relacaoEPI.style.display = "none";
-//     BoxentregEPI.style.display = "none";
-//     mainEntregEPI.style.display = "none";
-//     selecto[0].classList.toggle("show");
-//     selecto[1].classList.toggle("show");
-//     selecto[2].classList.toggle("show");
-//     selecto[3].classList.toggle("show");
-//     selecto[4].classList.toggle("show");
-//     selecto[5].classList.toggle("show");
-//     linhaVert.classList.toggle("teste");
-//   } else {
-//     mainAvisoEPI.style.display = "none";
-//     relacaoVenc.style.display = "none";
-//   }
-// });
-
 //Previne que o form não atualize a pagina após o envio do formulário.
 const form = document.getElementById("preventdefault");
 form.addEventListener("submit", (e) => {
@@ -415,70 +369,3 @@ form2.addEventListener("submit", (e) => {
   e.preventDefault();
   console.log("Deu certo");
 });
-
-//Função para criar animação da sidebar
-// buscaColab.addEventListener(
-//   "mouseenter",
-//   function (event) {
-//     selecto[0].classList.toggle("show");
-//     selecto[1].classList.toggle("show");
-//     selecto[2].classList.toggle("show");
-//     selecto[3].classList.toggle("show");
-//     selecto[4].classList.toggle("show");
-//     selecto[5].classList.toggle("show");
-//     linhaVert.classList.toggle("teste");
-//   },
-//   false
-// );
-// cadastro.addEventListener(
-//   "mouseover",
-//   function (event) {
-//     linhaVert.classList.toggle("teste");
-//     selecto[0].classList.toggle("show");
-//     selecto[1].classList.toggle("show");
-//     selecto[2].classList.toggle("show");
-//     selecto[3].classList.toggle("show");
-//     selecto[4].classList.toggle("show");
-//     selecto[5].classList.toggle("show");
-//   },
-//   false
-// );
-// cadastroEPI.addEventListener(
-//   "mouseenter",
-//   function (event) {
-//     linhaVert.classList.toggle("teste");
-//     selecto[0].classList.toggle("show");
-//     selecto[1].classList.toggle("show");
-//     selecto[2].classList.toggle("show");
-//     selecto[3].classList.toggle("show");
-//     selecto[4].classList.toggle("show");
-//     selecto[5].classList.toggle("show");
-//   },
-//   false
-// );
-// buscaEPI.addEventListener(
-//   "mouseenter",
-//   function (event) {
-//     linhaVert.classList.toggle("teste");
-//     selecto[0].classList.toggle("show");
-//     selecto[1].classList.toggle("show");
-//     selecto[2].classList.toggle("show");
-//     selecto[3].classList.toggle("show");
-//     selecto[4].classList.toggle("show");
-//     selecto[5].classList.toggle("show");
-//   },
-//   false
-// );
-// envioAviso.addEventListener(
-//   "mouseenter",
-//   function (event) {
-//     linhaVert.classList.toggle("teste");
-//     selecto[0].classList.toggle("show");
-//     selecto[1].classList.toggle("show");
-//     selecto[2].classList.toggle("show");
-//     selecto[3].classList.toggle("show");
-//     selecto[4].classList.toggle("show");
-//     selecto[5].classList.toggle("show");
-//   },
-//   false
-// );
