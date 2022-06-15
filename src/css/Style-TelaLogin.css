@@ -125,8 +125,15 @@ h2 {
 }
 
 .img_central {
+  max-height: 100%;
   max-width: 100%;
 }
+
+/* .imagem_principal {
+  border: 3px solid black;
+  width: 600px;
+  height: 800px;
+} */
 
 .img_footer {
   width: 90px;
