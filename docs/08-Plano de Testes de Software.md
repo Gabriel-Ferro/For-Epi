@@ -101,7 +101,7 @@
         </tr>
         <tr>
             <th>Registros</th>
-            <th><img src="github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2022-1-e1-proj-web-t1-grupo-08/blob/main/public/assets/img/Cadastro%20de%20EPI.png" alt="Cadastro de EPI’s">
+            <th><img src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2022-1-e1-proj-web-t1-grupo-08/blob/main/public/assets/img/Cadastro%20de%20EPI.png" alt="Cadastro de EPI’s">
                 <img src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2022-1-e1-proj-web-t1-grupo-08/blob/main/public/assets/img/Busca%20de%20EPI.png" alt="Cadastro de EPI’s">
          </th>
         </tr>
