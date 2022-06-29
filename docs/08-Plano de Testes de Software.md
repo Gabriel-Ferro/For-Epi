@@ -137,5 +137,10 @@
         <tr>
             <th>Critérios de Êxito</th>
             <th>Informar nome do colaborador e quais EPI’s está utilizando.</th>
+                 <tr>
+            <th>Registros</th>
+            <th><img src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2022-1-e1-proj-web-t1-grupo-08/blob/main/public/assets/img/Atribui%C3%A7%C3%A3o%20do%20EPI%20ao%20colaborador%20-%2000.png" - 00" alt="Tela de seleção de usuário e EPI">
+                    <img src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2022-1-e1-proj-web-t1-grupo-08/blob/main/public/assets/img/Atribui%C3%A7%C3%A3o%20do%20EPI%20ao%20colaborador.png" alt="Tabela de usuário e EPI">
+         </th>
         </tr>
     </table>
