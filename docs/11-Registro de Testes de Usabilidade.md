@@ -1,8 +1,31 @@
 # Registro de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="7-Programação de Funcionalidades.md"> Programação de Funcionalidades</a></span>, <a href="10-Plano de Testes de Usabilidade.md"> Plano de Testes de Usabilidade</a>
-
-Relatório com evidências dos testes e relatos dos usuários participantes, baseado em um plano de testes pré-definido.
-
-> **Links Úteis**:
-> - [Ferramentas deTestes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+<h5> Usuário Selecionado:  Roberto  </h5>       
+<h5> Data Realizada: 28/06/2022 </h5>
+  
+   <table border="1">
+<tr>
+         <th>Desafios</th> <th>Avaliação</th> <th>Observações</th> 
+    </tr>
+    <tr>
+         <th>Acessar a conta de Administrador</th> <th>•	Realizou com facilidade</th> <th>---</th>
+    </tr>
+    <tr>
+         <th>Navegar pelo dashboard</th> <th>•	Realizou com facilidade</th> <th>---</th>
+    </tr>
+    <tr>
+         <th>Cadastrar os dados do novo colaborador</th> <th>•	Realizou com facilidade</th> <th>---</th>
+    </tr> 
+    <tr>
+         <th>Verificar na lista de colaboradores, se o novo colaborador é encontrado</th> <th>•	Realizou com facilidade</th> <th>---</th>
+    </tr>
+    <tr>
+         <th>Atribuir EPI’s</th> <th>•	Realizou com facilidade</th> <th>---</th>
+    </tr>
+    <tr>
+        <th>Verificar histórico</th> <th>•	Realizou com facilidade</th> <th>---</th>
+    </tr>
+ 
+ </table>
+ 
+ <h5> Conclusão: O usuário completou a lista de tarefas designadas do roteiro facilmente. </h5>
