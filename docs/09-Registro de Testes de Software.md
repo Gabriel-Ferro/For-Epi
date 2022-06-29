@@ -1,12 +1,26 @@
-# Registro de Testes de Software
+# Registro de Testes de Software: Avaliação
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
+**Caso de Teste 1** <br/>
+Todos os passos foram cumpridos. A página da escolha do tipo de conta entre “Administrador” e “Colaborador” está funcional, o usuário conseguirá realizar o login e ser redirecionado a página principal do sistema. Teste realizado com sucesso. 
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2022-1-e1-proj-web-t1-grupo-08/blob/main/public/assets/img/Escolha%20do%20Usu%C3%A1rio.png">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2022-1-e1-proj-web-t1-grupo-08/blob/main/public/assets/img/Login.png">
 
-## Avaliação
+**Caso de Teste 2** <br/>
+Os dados do colaborador foram armazenados na localStorage com sucesso, e, consequentemente, o cadastro do colaborador aparecerá no sistema na aba “Colaborador” do sistema, o que possibilitará que o administrador consiga registrar e denominar o equipamento ao colaborador.  Teste realizado com sucesso. 
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2022-1-e1-proj-web-t1-grupo-08/blob/main/public/assets/img/Cadastro%20Colaborador.png" alt="Cadastro de colaboradores"> 
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2022-1-e1-proj-web-t1-grupo-08/blob/main/public/assets/img/Colaboradores%20Cadastrados.png" alt="Cadastro de colaboradores">
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+**Caso de Teste 3** <br/>
+Os dados do equipamento foram armazenados na localStorage com sucesso, e, consequentemente, o cadastro do equipamento aparecerá no sistema na aba “EPI e Descarte” do sistema, o que possibilitará que o administrador consiga atribuir o equipamento ao colaborador. Teste realizado com sucesso. 
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2022-1-e1-proj-web-t1-grupo-08/blob/main/public/assets/img/Cadastro%20de%20EPI.png" alt="Cadastro de EPI’s">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2022-1-e1-proj-web-t1-grupo-08/blob/main/public/assets/img/Busca%20de%20EPI.png" alt="Cadastro de EPI’s">
+
+**Caso de Teste 4** <br/>
+Com o colaborador e o equipamento já cadastrados, ao selecionar as opções é gerada uma lista de em que é informado o colaborador e qual equipamento está utilizando. Teste realizado com sucesso.
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2022-1-e1-proj-web-t1-grupo-08/blob/main/public/assets/img/Atribui%C3%A7%C3%A3o%20do%20EPI%20ao%20colaborador%20-%2000.png">
+ <img src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2022-1-e1-proj-web-t1-grupo-08/blob/main/public/assets/img/Atribui%C3%A7%C3%A3o%20do%20EPI%20ao%20colaborador.png">
+
