@@ -29,3 +29,33 @@
             </th>
         </tr>
     </table>
+     <table border="1">
+        <tr>
+            <th>Público Alvo</th>
+            <th>Funcionários acima de 18 anos com cargos de administradores ou colaborador, que tenham ou não tido
+                acesso ou experiência com manuseio e controle de algum tipo de software de entrega de EPI’s, sejam
+                capazes de utilizar o sistema “FOR EPI” de forma simples e objetiva, visando a eficiência logística
+                assegurando a empresa e os próprios funcionários.</th>
+        </tr>
+        <tr>
+            <th>Usuário Selecionado</th>
+            <th>Dulcinea Soares – 47 anos, casada e com um filho adulto e um adolescente.</th>
+        </tr>
+        <tr>
+            <th>ORoteiro a ser avaliado</th>
+            <th>• Navegar pelas abas do Menu conforme o dia a dia <br> • Efetuar o cadastro de um novo colaborador e
+                atribuir um equipamento já cadastrado
+            </th>
+        </tr>
+        <tr>
+            <th>Desafios</th>
+            <th>• Efetuar Login na sua conta.
+                <br>• Cadastrar um colaborador.
+                <br>• Cadastrar um EPI.
+                <br>• Gerar relatório de colaboradores cadastrados.
+                <br>• Gerar relatório de EPI cadastrados.
+                <br>• Vincular EPI ao colaborador cadastrado.
+                <br>• Navegar de forma ágil na aplicação. 
+            </th>
+        </tr>
+    </table>
