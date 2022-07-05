@@ -17,13 +17,15 @@
          <th>Cadastrar os dados do novo colaborador</th> <th>•	Realizou com facilidade</th> <th>---</th>
     </tr> 
     <tr>
-         <th>Verificar na lista de colaboradores, se o novo colaborador é encontrado</th> <th>•	Realizou com facilidade</th> <th>---</th>
+         <th>Cadastrar os dados do novo EPI</th> <th>•	Realizou com facilidade</th> <th>---</th>
     </tr>
     <tr>
-         <th>Atribuir EPI’s</th> <th>•	Realizou com facilidade</th> <th>---</th>
+         <th>Gerar relatório do colaborador cadastrado</th> <th>•	Realizou com facilidade</th> <th>---</th>
     </tr>
     <tr>
-        <th>Verificar histórico</th> <th>•	Realizou com facilidade</th> <th>---</th>
+        <th>Gerar relatório do EPI cadastrado</th> <th>•	Realizou com facilidade</th> <th>---</th>
+    </tr>
+  <th>Atribuir EPI ao colaborador</th> <th>•	Realizou com facilidade</th> <th>---</th>
     </tr>
  
  </table>
